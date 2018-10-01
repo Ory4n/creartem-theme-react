@@ -428,7 +428,7 @@ class Students extends Component {
                           <div className="item media text-white">
                             <div className="media-img">
                               <div className="mask"></div>
-                              <img className="img img-block" src="/theme/img/items/img-person5.jpg" alt="Doug MacKenzie" />
+                              <img className="img img-block" src="/theme/img/items/doug.jpg" alt="Doug MacKenzie" />
                             </div>
                             <div className="media-body center-vh text-center">
                               <a href="team.html">

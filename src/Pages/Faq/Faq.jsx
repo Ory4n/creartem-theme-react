@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class About extends Component {
+class Faq extends Component {
   constructor(){
     super();
     this.state = {
@@ -24,7 +24,7 @@ class About extends Component {
               <div className="media-row flex-height">
             <div className="row">
               <div className="col-12 center-v">
-                <div className="media item anim fullwidth border">
+                <div className="media item anim fullwidth">
                   <div className="media-img">
                     <div className="mask bg-white-gray"></div>
                   </div>
@@ -66,7 +66,7 @@ class About extends Component {
                       </div>
 
                       <div className="col-12 col-md-8 0col-lg-8 order-2 order-md-2 order-lg-2 text-left center-v">
-                        <div className="item media anim about">
+                        <div className="item media anim">
                           <article className="article-page margin-tb width-article">
                             <div className="article-header sr-up-td1">
                               <h4>Expertise</h4>
@@ -113,9 +113,21 @@ class About extends Component {
                 <div className="section-wrapper fullwidth center-lg-v">
                   <div className="section-content">
                     <div className="row media-twoside">
+                      <div className="col-12 col-md-4 col-lg-4 order-1 order-md-2 order-lg-2 ">
+                        <div className="item media anim">
+                          <div className="media-img cover-flex">
+                            <div className="cover-part bg-img" data-image-src="./theme/img/items/img-sample1.jpg">
+                            </div>
+                            <div className="cover-part bg-img" data-image-src="./theme/img/items/img-sample2.jpg">
+                            </div>
+                            <div className="cover-part bg-img" data-image-src="./theme/img/items/img-sample3.jpg">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
 
-                      <div className="col-12 col-md-12 col-lg-12 order-2 order-md-1 order-lg-1 text-left center-v">
-                        <div className="item media anim border-top">
+                      <div className="col-12 col-md-8 col-lg-8 order-2 order-md-1 order-lg-1 text-left center-v">
+                        <div className="item media anim">
                           <article className="article-page margin-tb width-article">
                             <div className="article-header sr-up-td1">
                               <h4>Expertise</h4>
@@ -178,4 +190,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Faq;

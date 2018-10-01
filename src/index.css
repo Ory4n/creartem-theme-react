@@ -1,3 +1,12 @@
 .page-cover .cover-bg-mask {
   background: rgba(5, 50, 45, 0.8);
 }
+.item.media.anim.about {
+  background: #1d1d1d;
+}
+.media.item.anim.fullwidth.border {
+  border-bottom: 5px solid orange !important;
+}
+.item.media.anim.border-top {
+  border-top: 5px solid orange !important;
+}

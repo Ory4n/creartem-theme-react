@@ -16,13 +16,13 @@ const Header = () => {
       </button>
       <div className="navbar navbar-wrapper">
         <div className="navbar-brand">
-          <a href="index.html#">
+          <a href="/">
             <span className="logo">
               <img className="light-logo" src="/theme/img/logo.png" alt="Creartem Logo" />
             </span>
             <span className="text">
-              <span className="line">Company</span>
-              <span className="line sub">Cabinet Agency</span>
+              <span className="line">Creartem</span>
+              <span className="line sub">Web Agency</span>
             </span>
           </a>
         </div>
@@ -31,16 +31,16 @@ const Header = () => {
           <nav className="navbar-mainmenu">
             <div className="click-exit"></div>
             <ul className="navbar-nav mr-auto">
-              <li className="nav-item active">
-                <Link className="nav-link" to="/">Home
+              <li className="nav-item">
+                <Link className="nav-link active" to="/">Home
                   <span className="sr-only">(current)</span>
                 </Link>
               </li>
               <li className="nav-item ">
-                <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link active" to="/about">About</Link>
               </li>
               <li className="nav-item ">
-                <Link className="nav-link" to="/portfolio">Portfolio</Link>
+                <Link className="nav-link active" to="/portfolio">Portfolio</Link>
               </li>
               <li className="nav-item ">
                 <Link className="nav-link" to="/services">Services</Link>

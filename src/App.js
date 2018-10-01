@@ -5,6 +5,9 @@ import About from './Pages/About/About';
 import Notfound from './Components/Notfound/Notfound';
 import Header from './Components/Header/Header';
 import Students from './Pages/Students/Students';
+import Services from './Pages/Services/Services';
+import Portfolio from './Pages/Portfolio/Portfolio';
+import Faq from './Pages/Faq/Faq';
 
 class App extends Component {
   render() {
@@ -23,6 +26,9 @@ class App extends Component {
           <Route path="/" component={Home} exact />
           <Route path="/about" component={About} />
           <Route path="/students" component={Students} />
+          <Route path="/services" component={Services} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/faq" component={Faq} />
           <Route component={Notfound} />
           </Switch>
         </main>

@@ -24,7 +24,7 @@ class About extends Component {
               <div className="media-row flex-height">
             <div className="row">
               <div className="col-12 center-v">
-                <div className="media item anim fullwidth border">
+                <div className="media item anim fullwidth border-bottom-orange">
                   <div className="media-img">
                     <div className="mask bg-white-gray"></div>
                   </div>
@@ -38,7 +38,7 @@ class About extends Component {
                       </div>
 
                       <div className="btns-action sr-up-td3">
-                        <a className="btn btn-normal" href="#">
+                        <a className="btn btn-normal" href="/">
                           <span className="text">Contact</span>
                           <span className="icon">
                             <span className="arrow-right"></span>
@@ -60,7 +60,7 @@ class About extends Component {
                       <div className="col-12 col-md-4 col-lg-4 order-1 order-md-1 order-lg-1">
                         <div className="item media anim translateUp">
                           <div className="media-img">
-                            <img className="img img-block" src="/theme/img/items/img-sample1.jpg" alt="Image" />
+                            <img className="img img-block" src="/theme/img/items/img-sample1.jpg" alt="About Creartem" />
                           </div>
                         </div>
                       </div>
@@ -73,7 +73,7 @@ class About extends Component {
                             </div>
                             <div className="article-content sr-up-td1">
                               <h1 className="display-3">{page.title.rendered}</h1>
-                              <p className="desc-decor"><div dangerouslySetInnerHTML={ {__html: page.content.rendered} } /></p>
+                              <div dangerouslySetInnerHTML={ {__html: page.content.rendered} } />
                             </div>
 
                             <div className="btns-action sr-up-td1">
@@ -115,7 +115,7 @@ class About extends Component {
                     <div className="row media-twoside">
 
                       <div className="col-12 col-md-12 col-lg-12 order-2 order-md-1 order-lg-1 text-left center-v">
-                        <div className="item media anim border-top">
+                        <div className="item media anim border-top-orange">
                           <article className="article-page margin-tb width-article">
                             <div className="article-header sr-up-td1">
                               <h4>Expertise</h4>
@@ -171,9 +171,9 @@ class About extends Component {
           )
         })
         return (
-          <section>
+          <div>
               {pages}
-          </section>
+          </div>
         );
   }
 }

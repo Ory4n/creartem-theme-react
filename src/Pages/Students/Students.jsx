@@ -26,7 +26,7 @@ class Students extends Component {
               <div className="section section-description fp-auto-height" data-section="team-member">
 
                 <div className="section-wrapper fullwidth center-lg-v">
-
+                  {/*Start Top Content*/}
                   <div className="section-content">
                     <div className="row  media-twoside">
 
@@ -68,6 +68,7 @@ class Students extends Component {
                     </div>
                   </div>
 
+
                   <footer className="section-footer scrolldown">
                     <a className="up">
                       <span className="btn btn-arrow">
@@ -86,6 +87,9 @@ class Students extends Component {
                   </footer>
                 </div>
               </div>
+              {/*End Top Content*/}
+
+              {/*Start Team profiles*/}
               <div className="section  fp-auto-height" data-section="team">
 
                 <div className="section-wrapper fullwidth with-margin">
@@ -108,7 +112,7 @@ class Students extends Component {
                             </div>
                           </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-4 order-lg-2">
+                        {/*<div className="col-12 col-md-6 col-lg-4 order-lg-3">
                           <div className="item media text-white">
                             <div className="media-img">
                               <div className="mask bg-primary"></div>
@@ -119,20 +123,8 @@ class Students extends Component {
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </div>*/}
                         <div className="col-12 col-md-6 col-lg-4 order-lg-3">
-                          <div className="item media text-white">
-                            <div className="media-img">
-                              <img className="img img-block" src="/theme/img/items/img-sample6.jpg" alt="An image" />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="media-row">
-                      <div className="row">
-                        <div className="col-12 col-lg-4 order-1 order-lg-3">
                           <div className="item media text-white">
                             <div className="media-img">
                               <div className="mask bg-primary"></div>
@@ -141,6 +133,45 @@ class Students extends Component {
                               <div className="desc sr-up-td1">
                                 <h3 className="display-6">Designers</h3>
                               </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-12 col-md-6 col-lg-4 order-lg-2">
+                          <div className="item media text-white">
+                            <div className="media-img">
+                              <img className="img img-block" src="/theme/img/items/img-sample6.jpg" alt="Creartem Students" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="media-row border-top-orange">
+                      <div className="row">
+                        <div className="col-12 col-lg-4 order-1 order-lg-3">
+                          <div className="item media text-white">
+                            <div className="media-img">
+                              <div className="mask"></div>
+                              <img className="img img-block" src="/theme/img/items/namita.png" alt="Namita" />
+                            </div>
+                            <div className="media-body center-vh text-center">
+                              <a href="team.html">
+                                <div className="desc sr-up-td1">
+                                  <h3 className="display-6">Namita Garg</h3>
+                                  <p>
+                                    Web Designer
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+
+                            <div className="media-footer text-right">
+                              <a className="btn btn-social" href="/">
+                                <i className="icon fa fa-instagram"></i>
+                              </a>
+                              <a className="btn btn-social" href="/">
+                                <i className="icon fa fa-twitter"></i>
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -203,35 +234,50 @@ class Students extends Component {
 
                     <div className="media-row">
                       <div className="row">
+
                         <div className="col-12 col-lg-4 order-1 order-lg-1">
                           <div className="item media text-white">
                             <div className="media-img">
-                              <div className="mask bg-primary"></div>
-                            </div>
-                            <div className="media-body center-vh text-center text-white">
-                              <div className="desc sr-up-td1">
-                                <h3 className="display-6">Designers</h3>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-12 col-md-6 col-lg-4 order-2 order-lg-2">
-                          <div className="item media text-white">
-                            <div className="media-img">
                               <div className="mask"></div>
-                              <img className="img img-block" src="/theme/img/items/namita.png" alt="Namita" />
+                              <img className="img img-block" src="/theme/img/items/saloni.jpg" alt="Saloni" />
                             </div>
                             <div className="media-body center-vh text-center">
                               <a href="team.html">
                                 <div className="desc sr-up-td1">
-                                  <h3 className="display-6">Namita Garg</h3>
+                                  <h3 className="display-6">Saloni Gupta</h3>
                                   <p>
                                     Web Designer
                                   </p>
                                 </div>
                               </a>
                             </div>
+                            <div className="media-footer text-right">
+                              <a className="btn btn-social" href="/">
+                                <i className="icon fa fa-instagram"></i>
+                              </a>
+                              <a className="btn btn-social" href="/">
+                                <i className="icon fa fa-twitter"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
 
+                        <div className="col-12 col-md-6 col-lg-4 order-2 order-lg-2">
+                          <div className="item media text-white">
+                            <div className="media-img">
+                              <div className="mask"></div>
+                              <img className="img img-block" src="/theme/img/items/Mon1.jpg" alt="Monpariva" />
+                            </div>
+                            <div className="media-body center-vh text-center">
+                              <a href="team.html">
+                                <div className="desc sr-up-td1">
+                                  <h3 className="display-6">Monpariva Mingmongkol</h3>
+                                  <p>
+                                    Web Designer
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
                             <div className="media-footer text-right">
                               <a className="btn btn-social" href="/">
                                 <i className="icon fa fa-instagram"></i>
@@ -271,81 +317,13 @@ class Students extends Component {
                       </div>
                     </div>
 
-                    <div className="media-row">
-                      <div className="row">
-                        <div className="col-12 col-lg-4 order-1 order-lg-3">
-                          <div className="item media text-white">
-                            <div className="media-img">
-                              <div className="mask bg-primary"></div>
-                            </div>
-                            <div className="media-body center-vh text-center text-white">
-                              <div className="desc sr-up-td1">
-                                <h3 className="display-6">Designers</h3>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-12 col-md-6 col-lg-4 order-2 order-lg-1">
-                          <div className="item media text-white">
-                            <div className="media-img">
-                              <div className="mask"></div>
-                              <img className="img img-block" src="/theme/img/items/saloni.jpg" alt="Saloni" />
-                            </div>
-                            <div className="media-body center-vh text-center">
-                              <a href="team.html">
-                                <div className="desc sr-up-td1">
-                                  <h3 className="display-6">Saloni Gupta</h3>
-                                  <p>
-                                    Web Designer
-                                  </p>
-                                </div>
-                              </a>
-                            </div>
-                            <div className="media-footer text-right">
-                              <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-instagram"></i>
-                              </a>
-                              <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-twitter"></i>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-12 col-md-6 col-lg-4 order-3 order-lg-2">
-                          <div className="item media text-white">
-                            <div className="media-img">
-                              <div className="mask"></div>
-                              <img className="img img-block" src="/theme/img/items/Mon1.jpg" alt="Monpariva" />
-                            </div>
-                            <div className="media-body center-vh text-center">
-                              <a href="team.html">
-                                <div className="desc sr-up-td1">
-                                  <h3 className="display-6">Monpariva Mingmongkol</h3>
-                                  <p>
-                                    Web Designer
-                                  </p>
-                                </div>
-                              </a>
-                            </div>
-                            <div className="media-footer text-right">
-                              <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-instagram"></i>
-                              </a>
-                              <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-twitter"></i>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
 
-                    <div className="media-row">
+                    <div className="media-row border-top-green">
                       <div className="row">
                         <div className="col-12 col-lg-4 order-1 order-lg-1">
                           <div className="item media text-white">
                             <div className="media-img">
-                              <div className="mask bg-primary"></div>
+                              <div className="mask bg-secondary"></div>
                             </div>
                             <div className="media-body center-vh text-center text-white">
                               <div className="desc sr-up-td1">
@@ -358,14 +336,14 @@ class Students extends Component {
                           <div className="item media text-white">
                             <div className="media-img">
                               <div className="mask"></div>
-                              <img className="img img-block" src="/theme/img/items/oryan.jpg" alt="Oryan" />
+                              <img className="img img-block" src="/theme/img/items/oryan.jpg" alt="Oryan Maclean Mclean" />
                             </div>
                             <div className="media-body center-vh text-center">
                               <a href="team.html">
                                 <div className="desc sr-up-td1">
                                   <h3 className="display-6">Oryan McLean</h3>
                                   <p>
-                                    Full-Stack Developer
+                                    Full-Stack Developer / Web Consultant / UI-UX Designer
                                   </p>
                                 </div>
                               </a>
@@ -373,10 +351,10 @@ class Students extends Component {
 
                             <div className="media-footer text-right">
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-instagram"></i>
+                                <i className="icon fa fa-linkedin"></i>
                               </a>
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-twitter"></i>
+                                <i className="icon fa fa-globe"></i>
                               </a>
                             </div>
                           </div>
@@ -420,11 +398,12 @@ class Students extends Component {
                         <div className="col-12 col-lg-4 order-1 order-lg-2">
                           <div className="item media text-white">
                             <div className="media-img">
-                              <div className="mask bg-primary"></div>
+                              <div className="mask bg-white"></div>
                             </div>
-                            <div className="media-body center-vh text-center">
-                              <div className="desc sr-up-td1">
-                                <h3 className="display-6">Tutor</h3>
+                            <div className="media-body center-vh text-center text-primary">
+                              <div class="desc sr-up-td1">
+                                <h3 class="display-6">Lecturer</h3>
+                                <p>Senior Lecturer at Toi Ohomai Institute of Technology.</p>
                               </div>
                             </div>
                           </div>
@@ -449,7 +428,7 @@ class Students extends Component {
 
                           </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-4 order-3 order-lg-3">
+                        {/*<div className="col-12 col-md-6 col-lg-4 order-3 order-lg-3">
                           <div className="item media text-white">
                             <div className="item media">
 
@@ -476,7 +455,7 @@ class Students extends Component {
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </div>*/}
                       </div>
                     </div>
 

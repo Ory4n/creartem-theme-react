@@ -1,74 +1,4 @@
-/*-----------------------------------------------------------------
-[Legal Notice]
 
-Copyright (c) Miradontsoa
-Website Template by miradontsoa
-http://highhay.com
-http://miradontsoa.com
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[Table of contents]
-/** CSS Reference
-    0. Base Style
-		0.1 Tag and Class Initializer
-		0.2 Typography Initializer
-	1. Components 
-		1.1 Buttons, form container, input form control
-			1.1.1 buttons / .btn , .btn-outline, .btn-arrow, .btn-icon
-			1.1.2 forms / .form-container-transparent, .form-control, .form-control-line, .form-control-outline, .form-group
-		1.2 Layout
-			1.2.1 Grid / grid-*
-			1.2.2 Articles / .article, .article-light
-			1.2.3 Images Layout / .image-frame /.image-frame-normal
-			1.2.4 Media
-				a. Bootstrap Media /.media
-				b. media twoside / .media-twoside
-				c. media row / .media-row 
-				d. media panel / .media-panel
-				e. media full / .media-full
-				f. media square / .media-square
-			1.2.5 Labels / .label
-		1.3 Sliders
-			1.3.1 Swiper slider /.carousel-swiper-slider
-		1.4 Additional UI
-			1.4.1 Page cover / .page-cover
-	2. Page Header menu icon and nav dot
-		2.1 Page header / .page-header / .page-header-alpha
-		2.2 Menu-icon / .menu-icon
-	3 Navigation dot / #fp-nav
-	4. Pages Setting
-		4.1 Default settings / .page-main
-		4.2 Body page / .body-page
-		4.3 3. Page Footer / .page-footer 
-	5. Sections / .section
-		5.1 Default layout settings/ .section
-				a. Section / .section / .section-text-dark
-				b. Section cover / .section-cover-tier, .section-cover-full, .cover-content, .section-cover-half-left
-				c. Section footer / Scrolldown: .scrolldown / slider navigation .slider-navigation / Footer registration form .footer-register
-				d. Section text and image content / .section-content
-				e. Section animation
-		5.3 Section service list / .service-list
-		5.3 Section slides / .gallery-	
-		5.4 Section-contact / .section-contact , .address-container
-	6. Helper classes / Responsiveness
-		6.1 Helper classes
-		6.2 Responsiveness
-	
-	Sample hooks to altering this css file can be found in "style-colorX.css" file 
-
-**/
-/*---------- 
-[Colors]
-    text color : #FFFFFF, #FFF
-	black : #1d1d1d, rgba(0,0,0,0.15), rgba(0,0,0,0.2), rgba(0,0,0,0.5)
-	white : #ffffff
-	orange : #ff9800
-	orange accent : #ad6700
-[Typography]
-	font-family :
-	- Sans serif font :  Roboto, Open sans / Helvetica with fallback to system-ui fonts
-	- Geometric font :  Montserrat, Fallback to system-ui font
-*/
 .text-black {
   color: #1d1d1d !important; }
 
@@ -76,7 +6,7 @@ http://miradontsoa.com
   color: #ff9800 !important; }
 
 .text-secondary {
-  color: #71839e !important; }
+  color: #0b6d89 !important; }
 
 .text-white {
   color: #ffffff !important; }
@@ -1527,11 +1457,12 @@ textarea {
     align-items: center;
     margin-bottom: 1rem; }
     .media-panel .logo-wrapper .logo img {
-      width: 64px;
+      width: 124px;
       margin-bottom: 1rem; }
     .media-panel .logo-wrapper .logo-text,
     .media-panel .logo-wrapper .text {
-      text-align: center; }
+      text-align: center;
+      display: none; }
       .media-panel .logo-wrapper .logo-text .line,
       .media-panel .logo-wrapper .text .line {
         display: block;
@@ -2298,12 +2229,12 @@ textarea {
     color: #ffffff;
     text-decoration: none; }
   .page-header-alpha .navbar-brand .logo img {
-    height: 64px;
+    height: 84px;
     width: auto;
     margin-bottom: 1rem; }
     @media (min-width: 1280px) {
       .page-header-alpha .navbar-brand .logo img {
-        height: 64px; } }
+        height: 84px; } }
   .page-header-alpha .navbar-brand .logo-text .line,
   .page-header-alpha .navbar-brand .text .line {
     display: block;

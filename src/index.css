@@ -1,12 +1,40 @@
 .page-cover .cover-bg-mask {
   background: rgba(5, 50, 45, 0.8);
 }
+.bg-secondary {
+  background: #0b6d89 !important;
+}
+.border-top-green {
+  border-top: 5px solid #0b6d89;
+}
+.border-top-orange {
+  border-top: 5px solid #ff9800 !important;
+}
+.border-bottom-orange {
+  border-bottom: 5px solid #ff9800 !important;
+}
 .item.media.anim.about {
   background: #0b6d89;
 }
-.media.item.anim.fullwidth.border {
-  border-bottom: 5px solid orange !important;
+#mainpage {
+  height:100%;
+  position:relative;
 }
-.item.media.anim.border-top {
-  border-top: 5px solid orange !important;
+.btns-action.anim-4, h2.display-4.display-title.anim-1 {
+  opacity: 1 !important;
+}
+.media-panel .media-img .mask, .media-panel .media-body {
+  background:transparent;
+}
+.media.media-panel.bordered:hover {
+  background:#0b6d89;
+}
+.media-panel .media-body .btn {
+  color:white;
+}
+.media-panel:hover .media-title p {
+  color:#ff9800;
+}
+.media.media-panel:hover {
+  background: #0b6d89;
 }

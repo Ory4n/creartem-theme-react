@@ -21,54 +21,94 @@ class Services extends Component {
     let pages = this.state.pages.map((page, index) => {
           return (
             <div key={index}>
-      <div className="section section-home-alt fullscreen-md fp-auto-height-responsive main-home section-home section-centered"
-      data-section="home">
+              <div className="section section-list-feature fp-auto-height" data-section="services">
 
-        <div className="section-wrapper fullwidth">
-
-          <div className="section-content">
-            <div className="media-full">
-              <div className="row fullheight">
-                <div className="col-12 col-md-8 col-lg-8 center-vh">
-                  <article className="article-page margin-tb width-article text-left">
-                    {/*title and description*/}
-                    <div className="article-content anim-2">
-                      <h1 className="display-3">{page.title.rendered}</h1>
-                      <p className="desc-decor"><div dangerouslySetInnerHTML={ {__html: page.content.rendered} } /></p>
-                      {/*Action button*/}
-                      <div className="btns-action anim-5">
-                        <a className="btn btn-normal" href="/">
-                          <span className="text">Learn more</span>
-                          <span className="icon">
-                            <span className="arrow-right"></span>
-                          </span>
-                        </a>
+                <div className="section-wrapper fullwidth margin-tb margin-lr">
+                  <div className="section-content anim-off">
+                    <div className="row justify-content-center">
+                      <div className="col-12 col-lg-6 text-center">
+                        {/*Title and Description*/}
+                        <div className="title-desc">
+                          <h2 className="display-4 display-title anim-1">Services</h2>
+                          <p className="anim-2">List of our services. Lorem ipsum magicum dolor sit amet, consectetur
+                            adipiscing elit. Maecenas a sem ultrices neque vehicula fermentum
+                            a sit amet nulla.
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </article>
-                </div>
-                <div className="col-12 col-md-4 col-lg-4 d-none d-md-block">
-                  <div className="border-right"></div>
+
+                    {/*Service List*/}
+                    <div className="service-list grid-1 grid-md-2 grid-lg-3 anim-list decor-off">
+                      {/*Item 1*/}
+                      <div className="item media">
+                        <div className="img">
+                          <h3 className="title-icon">01</h3>
+                        </div>
+                        <div className="media-body">
+                          <a href="/">
+                            <h4>Coding</h4>
+                            <p>An awesome service that we offer to you. This is just a placeholder
+                              text.</p>
+                          </a>
+                          <a className="btn btn-underline btn-primary" href="/">
+                            <span className="text">Details ...</span>
+                          </a>
+                        </div>
+                      </div>
+                      {/*Item 2*/}
+                      <div className="item media">
+                        <div className="img">
+                          <h3 className="title-icon">02</h3>
+                        </div>
+                        <div className="media-body">
+                          <a href="/">
+                            <h4>Mechanics</h4>
+                            <p>An awesome service that we offer to you. This is just a placeholder
+                              text.</p>
+                          </a>
+                          <a className="btn btn-underline btn-primary" href="/">
+                            <span className="text">Details ...</span>
+                          </a>
+                        </div>
+                      </div>
+                      {/*Item 3*/}
+                      <div className="item media">
+                        <div className="img">
+                          <h3 className="title-icon">03</h3>
+                        </div>
+                        <div className="media-body">
+                          <a href="/">
+                            <h4>Analytics</h4>
+                            <p>An awesome service that we offer to you. This is just a placeholder
+                              text.</p>
+                          </a>
+                          <a className="btn btn-underline btn-primary" href="/">
+                            <span className="text">Details ...</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <footer className="section-footer scrolldown">
+                    <a className="up">
+                      <span className="btn btn-arrow">
+                        <span className="icon">
+                          <span className="arrow-up"></span>
+                        </span>
+                      </span>
+                    </a>
+                    <a className="down">
+                      <span className="btn btn-arrow">
+                        <span className="icon">
+                          <span className="arrow-down"></span>
+                        </span>
+                      </span>
+                    </a>
+                  </footer>
                 </div>
               </div>
-            </div>
-          </div>
-
-          {/*Arrows scroll down/up*/}
-          <footer className="section-footer scrolldown">
-            <a className="down">
-              <span className="btn btn-arrow">
-                <span className="icon">
-                  <span className="arrow-down"></span>
-                </span>
-              </span>
-            </a>
-          </footer>
-        </div>
-        {/*End of section wrapper*/}
-      </div>
-
-
             </div>
           )
         })

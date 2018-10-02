@@ -21,59 +21,215 @@ class Portfolio extends Component {
     let pages = this.state.pages.map((page, index) => {
           return (
             <div key={index}>
-      <div className="section section-home-alt fullscreen-md fp-auto-height-responsive main-home section-home section-centered"
-      data-section="home">
+              <div className="section section-grid section-centered fp-auto-height demo-section" id="style">
+                <div className="section-wrapper mediumwidth margin-tb">
 
-        <div className="section-wrapper fullwidth">
 
-          <div className="section-content">
-            <div className="media-full">
-              <div className="row fullheight">
-                <div className="col-12 col-md-8 col-lg-8 center-vh">
-                  <article className="article-page margin-tb width-article text-left">
-                    {/*title and description*/}
-                    <div className="article-content anim-2">
-                      <h1 className="display-3">{page.title.rendered}</h1>
-                      <p className="desc-decor"><div dangerouslySetInnerHTML={ {__html: page.content.rendered} } /></p>
-                      {/*Action button*/}
-                      <div className="btns-action anim-5">
-                        <a className="btn btn-normal" href="/">
-                          <span className="text">Learn more</span>
-                          <span className="icon">
-                            <span className="arrow-right"></span>
-                          </span>
-                        </a>
+                  <div className="section-aside">
+                    <div className="title-desc">
+                      <h2 className="display-4 display-title anim-1">Style &amp; Colors</h2>
+                    </div>
+
+                  </div>
+
+                  <div className="section-content row justify-content-between">
+                    <div className="col-12 col-sm-6 col-md-4">
+                      <div className="section-content anim">
+                        <div className="images text-center">
+                          <div className="img-frame-normal">
+                            <div className="img-1 shadow">
+                              <a href="index-style1.html">
+                                <img className="img" src="/theme/demopage/style1.jpg" alt="demo" />
+                              </a>
+                            </div>
+                            <div className="legend text-left">
+                              <h5>Style : White Background</h5>
+                              <p className="small">Sample CSS customizing page color : black text and white background</p>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </article>
-                </div>
-                <div className="col-12 col-md-4 col-lg-4 d-none d-md-block">
-                  <div className="border-right"></div>
+                    <div className="col-12 col-sm-6 col-md-4">
+                      <div className="section-content anim translateDown">
+                        <div className="images text-center">
+                          <div className="img-frame-normal">
+                            <div className="img-1 shadow">
+                              <a href="index-style2.html">
+                                <img className="img" src="/theme/demopage/style2.jpg" alt="demo" />
+                              </a>
+                            </div>
+                            <div className="legend text-left">
+                              <h5>Style : Customized colors</h5>
+                              <p className="small">Sample CSS customizing page color.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-12 col-sm-6 col-md-4">
+                      <div className="section-content anim translateUp">
+                        <div className="images text-center">
+                          <div className="img-frame-normal">
+                            <div className="img-1 shadow">
+                              <a href="index-2.html">
+                                <img className="img" src="/theme/demopage/default.jpg" alt="demo" />
+                              </a>
+                            </div>
+                            <div className="legend text-left">
+                              <h5>Default Layout</h5>
+                              <p className="small">Default CSS, just primary color is customized</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
+              <div className="section section-twoside section-centered fp-auto-height demo-section"
+              id="home">
+                <div className="section-wrapper mediumwidth margin-tb">
 
-          {/*Arrows scroll down/up*/}
-          <footer className="section-footer scrolldown">
-            <a className="down">
-              <span className="btn btn-arrow">
-                <span className="icon">
-                  <span className="arrow-down"></span>
-                </span>
-              </span>
-            </a>
-          </footer>
-        </div>
-        {/*End of section wrapper*/}
-      </div>
+                  <div className="section-aside aside-top anim translateUp">
+                    <div className="title-desc">
+                      <h2 className="display-4 display-title anim-1">Home</h2>
+                    </div>
 
+                  </div>
 
+                  <div className="section-content row justify-content-between">
+                    <div className="col-12 col-sm-6 col-md-4">
+                      <div className="section-content anim translateDown">
+                        <div className="images text-center">
+                          <div className="img-frame-normal">
+                            <div className="img-1 shadow">
+                              <a href="index-2.html">
+                                <img className="img" src="/theme/demopage/default.jpg" alt="demo" />
+                              </a>
+                            </div>
+                            <div className="legend text-left">
+                              <h5>Multipanel</h5>
+                              <p className="small">Use it to highlight services</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-12 col-sm-6 col-md-4">
+                      <div className="section-content anim">
+                        <div className="images text-center">
+                          <div className="img-frame-normal">
+                            <div className="img-1 shadow">
+                              <a href="index-home-alt.html">
+                                <img className="img" src="/theme/demopage/fullscreen.jpg" alt="demo" />
+                              </a>
+                            </div>
+                            <div className="legend text-left">
+                              <h5>Fullscreen image</h5>
+                              <p className="small">Use it to present your brand</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-12 col-sm-6 col-md-4">
+                      <div className="section-content anim translateUp">
+                        <div className="images text-center">
+                          <div className="img-frame-normal">
+                            <div className="img-1 shadow">
+                              <a href="projects.html">
+                                <img className="img" src="/theme/demopage/projects.jpg" alt="demo" />
+                              </a>
+                            </div>
+                            <div className="legend text-left">
+                              <h5>Slider</h5>
+                              <p className="small">Use it as a gallery or projects slideshow</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <footer className="section-footer scrolldown">
+                    <a className="down">
+                      <span className="icon"></span>
+                      <span className="txt">Scroll Down</span>
+                    </a>
+                  </footer>
+                </div>
+              </div>
+              <div className="section section-grid section-centered fp-auto-height demo-section" id="background">
+                <div className="section-wrapper mediumwidth margin-tb">
+
+                  <div className="section-aside aside-top anim translateUp">
+                    <div className="title-desc">
+                      <h2 className="display-4 display-title anim-1">Background</h2>
+                    </div>
+
+                  </div>
+
+                  <div className="section-content row justify-content-between">
+                    <div className="col-12 col-sm-6 col-md-4">
+                      <div className="section-content anim translateUp">
+                        <div className="images text-center">
+                          <div className="img-frame-normal">
+                            <div className="img-1 shadow">
+                              <a href="index-particle.html">
+                                <img className="img" src="/theme/demopage/particle.jpg" alt="demo" />
+                              </a>
+                            </div>
+                            <div className="legend text-left">
+                              <h5>Particle</h5>
+                              <p className="small">Particle animation layer</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-12 col-sm-6 col-md-4">
+                      <div className="section-content anim">
+                        <div className="images text-center">
+                          <div className="img-frame-normal">
+                            <div className="img-1 shadow">
+                              <a href="index-slideshow.html">
+                                <img className="img" src="/theme/demopage/slideshow.jpg" alt="demo" />
+                              </a>
+                            </div>
+                            <div className="legend text-left">
+                              <h5>Slideshow</h5>
+                              <p className="small">Fullscreen background image slideshow</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-12 col-sm-6 col-md-4">
+                      <div className="section-content anim translateDown">
+                        <div className="images text-center">
+                          <div className="img-frame-normal">
+                            <div className="img-1 shadow">
+                              <a href="index-video.html">
+                                <img className="img" src="/theme/demopage/video.jpg" alt="demo" />
+                              </a>
+                            </div>
+                            <div className="legend text-left">
+                              <h5>Video</h5>
+                              <p className="small">Fullscreen video background</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
             </div>
           )
         })
         return (
-          <section id="about-page">
+          <section>
               {pages}
           </section>
         );

@@ -15,7 +15,7 @@ class App extends Component {
       <BrowserRouter>
         <div>
           <Header />
-            <main className="page-main page-fullpage main-anim" id="mainpage">
+            <main className="page-main page-fullpage main-anim fullpage-wrapper" id="mainpage">
               <div className="page-loader" id="page-loader">
         <div>
           <div className="icon ion-spin"></div>

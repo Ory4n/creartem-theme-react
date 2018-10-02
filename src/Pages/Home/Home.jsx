@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import AboutTitle from '../About/AboutTitle'
-import AboutContent from '../About/AboutContent'
+import AboutTitle from '../About/AboutTitle';
+import AboutContent from '../About/AboutContent';
 import Typist from 'react-typist';
 
 class Home extends Component {
@@ -85,7 +85,7 @@ class Home extends Component {
                           {/*title*/}
                           <div className="media-title text-center">
                             <h2 className="display-5 text-slide-in text-center"><AboutTitle /></h2>
-                            <div>Hi There, Creartem is a web agency based in Rotorua. Managed by tutors at Toi-Ohomai Institute of Technology and run by web development students.</div>
+                            <div><AboutContent /></div>
                           </div>
                           <div className="media-body">
                             {/*Panel 2 Action buttons*/}

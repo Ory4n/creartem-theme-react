@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import WebDesignTitle from '../Sections/WebDesign/Title';
+import WebDesignContent from '../Sections/WebDesign/Content';
+import WebDevTitle from '../Sections/WebDev/Title';
+import WebDevContent from '../Sections/WebDev/Content';
 
 class About extends Component {
   constructor(){
@@ -31,14 +35,16 @@ class About extends Component {
                   <div className="media-body">
                     <article className="article-page margin-tb width-article text-center">
                       <div className="article-header sr-up-td1">
+                        {/*About Page Title from Wordpress*/}
                         <h2 className="display-4 display-title">{page.title.rendered}</h2>
                       </div>
                       <div className="article-content sr-up-td2 text-black">
+                        {/*About Page Top Content from Wordpress*/}
                         <div dangerouslySetInnerHTML={ {__html: page.content.rendered} } />
                       </div>
 
                       <div className="btns-action sr-up-td3">
-                        <a className="btn btn-normal" href="/">
+                        <a className="btn btn-normal" href="/contact" alt="contact creartem agency" alt="contact creartem agency">
                           <span className="text">Contact</span>
                           <span className="icon">
                             <span className="arrow-right"></span>
@@ -72,12 +78,14 @@ class About extends Component {
                               <h4>Expertise</h4>
                             </div>
                             <div className="article-content sr-up-td1">
-                              <h1 className="display-3">{page.title.rendered}</h1>
-                              <div dangerouslySetInnerHTML={ {__html: page.content.rendered} } />
+                              {/*Web Design Section Title from Wordpress*/}
+                              <h1 className="display-3"><WebDesignTitle /></h1>
+                              {/*Web Design Section Content from Wordpress*/}
+                              <WebDesignContent />
                             </div>
 
                             <div className="btns-action sr-up-td1">
-                              <a className="btn btn-normal" href="item.html">
+                              <a className="btn btn-normal" href="/services">
                                 <span className="text">Learn more</span>
                                 <span className="icon">
                                   <span className="arrow-right"></span>
@@ -121,20 +129,14 @@ class About extends Component {
                               <h4>Expertise</h4>
                             </div>
                             <div className="article-content sr-up-td1">
-                              <h2>Affaire Courante</h2>
-                              <p>
-                                <strong>Résoudre avec facilité</strong>. Lorem ipsum magicum dolor
-                                sit amet, consectetur adipiscing elit. Maecenas a sem ultrices
-                                neque v ehicula fermentum a sit amet nulla.
-                              </p>
-                              <p>This describes what we do and what is our mission. Lorem ipsum
-                                magicum dolor sit amet, consectetur adipiscing elit. Maecenas
-                                a sem ultrices neque vehicula fermentum a sit amet nulla.
-                              </p>
+                              {/*Web Development Section Title from Wordpress*/}
+                              <h2><WebDevTitle /></h2>
+                              {/*Web Development Section Content section from Wordpress*/}
+                              <WebDevContent />
                             </div>
 
                             <div className="btns-action sr-up-td1">
-                              <a className="btn btn-normal" href="item.html">
+                              <a className="btn btn-normal" href="/services">
                                 <span className="text">Learn more</span>
                                 <span className="icon">
                                   <span className="arrow-right"></span>

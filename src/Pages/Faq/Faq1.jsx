@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Students extends Component {
+class Faq1 extends Component {
   constructor(){
     super();
     this.state = {
@@ -55,7 +55,7 @@ class Students extends Component {
                               <a href="http://instagram.com/" className="btn btn-social">
                                 <i className="icon fa fa-envelope"></i>
                               </a>
-                              
+
 
                             </div>
                           </article>
@@ -489,4 +489,4 @@ class Students extends Component {
   }
 }
 
-export default Students;
+export default Faq1;

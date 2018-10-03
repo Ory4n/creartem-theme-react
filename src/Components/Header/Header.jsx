@@ -22,7 +22,7 @@ const Header = () => {
             </span>
             <span className="text">
               <span className="line">Creartem</span>
-              <span className="line sub">Web Agency</span>
+              
             </span>
           </a>
         </div>

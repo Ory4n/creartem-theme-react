@@ -24,7 +24,7 @@ class About extends Component {
   render() {
     let pages = this.state.pages.map((page, index) => {
           return (
-            <div key={index}>
+            <div key={page}>
               <div className="media-row flex-height">
             <div className="row">
               <div className="col-12 center-v">
@@ -44,7 +44,7 @@ class About extends Component {
                       </div>
 
                       <div className="btns-action sr-up-td3">
-                        <a className="btn btn-normal" href="/contact" alt="contact creartem agency" alt="contact creartem agency">
+                        <a className="btn btn-normal" href="/contact" alt="creartem agency contact details">
                           <span className="text">Contact</span>
                           <span className="icon">
                             <span className="arrow-right"></span>

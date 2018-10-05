@@ -7,6 +7,7 @@ import Header from './Components/Header/Header';
 import Students from './Pages/Students/Students';
 import Services from './Pages/Services/Services';
 import Portfolio from './Pages/Portfolio/Portfolio';
+import Test from './Pages/Portfolio/Test';
 import Faq from './Pages/Faq/Faq';
 
 class App extends Component {
@@ -28,6 +29,7 @@ class App extends Component {
           <Route path="/students" component={Students} />
           <Route path="/services" component={Services} />
           <Route path="/portfolio" component={Portfolio} />
+          <Route path="/test" component={Test} />
           <Route path="/faq" component={Faq} />
           <Route component={Notfound} />
           </Switch>

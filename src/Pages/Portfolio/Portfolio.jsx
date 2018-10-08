@@ -28,7 +28,7 @@ class Portfolio extends Component {
                         <div className="img-frame-normal">
                           <div className="img-1 shadow">
                             <a href="index-style1.html">
-                              <img className="img" src="/theme/demopage/style1.jpg" alt="demo" />
+                              <img className="img" src="/theme/img/items/grey_power_hamilton.png" alt="demo" />
                             </a>
                           </div>
                           <div className="legend text-left">

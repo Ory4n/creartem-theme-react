@@ -84,8 +84,8 @@ class Home extends Component {
                           </div>
                           {/*title*/}
                           <div className="media-title text-center">
-                            <h2 className="display-5 text-slide-in text-center"><AboutTitle /></h2>
-                            <div><AboutContent /></div>
+                            <h2 className="display-5 text-slide-in text-center">About Creartem</h2>
+                            <div><br />Hi There, Creartem is a web agency based in Rotorua. Managed by tutors at Toi-Ohomai Institute of Technology and run by web development students.</div>
                           </div>
                           <div className="media-body">
                             {/*Panel 2 Action buttons*/}
@@ -115,8 +115,8 @@ class Home extends Component {
                           </div>
                           {/*title*/}
                           <div className="media-title">
-                            <h2 className="display-5 text-slide-in">Experts</h2>
-                            <p>We have the best team member in town. Everybody like us.</p>
+                            <h2 className="display-5 text-slide-in text-center">Creartem Services</h2>
+                            <div className="text-center"><br />We have the best team member in town. Everybody like us. We have the best team member in town. Everybody like us.</div>
                           </div>
                           <div className="media-body">
                             {/*Panel 3 Action buttons*/}

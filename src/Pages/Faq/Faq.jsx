@@ -30,21 +30,21 @@ class Faq extends Component {
               <div className="section section-description fp-auto-height" data-section="about">
                 <div className="section-wrapper fullwidth center-lg-v">
 
-                  <div className="section-content-faq">
+                  <div className="section-content faq">
                     <div className="row media-twoside">
                       <div className="col-12 col-md-4 col-lg-4 order-1 order-md-1 order-lg-1">
                         <div className="item media anim translateUp">
                           <div className="media-img">
-                            <img className="img img-block" src="/theme/img/items/img-sample1.jpg" alt="About Creartem" />
+                            <img className="img img-block" src="/theme/img/Map.png" alt="About Creartem" />
                           </div>
                         </div>
                       </div>
 
                       <div className="col-12 col-md-8 0col-lg-8 order-2 order-md-2 order-lg-2 text-left center-v">
-                        <div className="item media anim about">
+                        <div className="item media anim faqs">
                           <article className="article-page margin-tb width-article-faq">
                             <div className="article-header sr-up-td1">
-                              <h4>Contact</h4>
+                              <h2>Contact</h2>
                             </div>
                             <div className="article-content-faq sr-up-td1">
                             <form action="/action_page.php">
@@ -63,8 +63,20 @@ class Faq extends Component {
 
                                         <button type="submit" className="btn btn-default">Submit</button>
                                       </form>
-
-
+                                      <br />
+                                      <br />
+                                      <div class="row">
+                                      <div class="col-6 col-m-6 col-lg-6">
+                                      <u>
+                                      <h5>Privacy Policy</h5>
+                                      </u>
+                                      </div>
+                                      <div class="col-6 col-m-6 col-lg-6">
+                                      <u>
+                                      <h5>FAQ's</h5>
+                                      </u>
+                                      </div>
+                                      </div>
 
                             </div>
 
@@ -100,69 +112,6 @@ class Faq extends Component {
                 </div>
               </div>
 
-              <div className="section section-description fp-auto-height" data-section="about-more">
-                <div className="section-wrapper fullwidth center-lg-v">
-                  <div className="section-content-faq">
-                    <div className="row media-twoside">
-
-                      <div className="col-12 col-md-6 col-lg-6 order-2 order-md-1 order-lg-1 text-left center-v">
-                        <div className="item media anim border-top-orange">
-                          <article className="article-page margin-tb width-article">
-                            <div className="article-header sr-up-td1">
-                              <h4>FAQ'S</h4>
-                            </div>
-                            <div className="article-content sr-up-td1">
-                              {/*Web Development Section Title from Wordpress*/}
-                              <h2><WebDevTitle /></h2>
-                              {/*Web Development Section Content section from Wordpress*/}
-                              <WebDevContent />
-                            </div>
-
-                            <div className="btns-action sr-up-td1">
-
-                            </div>
-                          </article>
-                        </div>
-                      </div>
-
-                      <div className="col-12 col-md-6 col-lg-6 order-2 order-md-1 order-lg-1 text-left center-v">
-                        <div className="item media anim border-top-orange">
-                          <article className="article-page margin-tb width-article">
-                            <div className="article-header sr-up-td1">
-                              <h4>PRIVACY POLICY</h4>
-                            </div>
-                            <div className="article-content sr-up-td1">
-                              {/*Web Development Section Title from Wordpress*/}
-                              <h2><WebDevTitle /></h2>
-                              {/*Web Development Section Content section from Wordpress*/}
-                              <WebDevContent />
-                            </div>
-
-                            <div className="btns-action sr-up-td1">
-
-                            </div>
-                          </article>
-                        </div>
-                      </div>
-
-
-
-
-
-
-
-
-
-
-
-                    </div>
-                  </div>
-
-                  <footer className="section-footer scrolldown">
-
-                  </footer>
-                </div>
-              </div>
 
             </div>
           )

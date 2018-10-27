@@ -55,7 +55,7 @@ class Students extends Component {
                               <a href="http://instagram.com/" className="btn btn-social">
                                 <i className="icon fa fa-envelope"></i>
                               </a>
-                              
+
 
                             </div>
                           </article>
@@ -375,7 +375,7 @@ class Students extends Component {
                             <div className="media-body center-vh text-center">
                               <a href="team.html">
                                 <div className="desc sr-up-td1">
-                                  <h3 className="display-6">Sergey Lyaskoysity</h3>
+                                  <h3 className="display-6">Sergey Lyaskovskiy</h3>
                                   <p>
                                     Web Developer & Designer
                                   </p>

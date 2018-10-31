@@ -36,24 +36,25 @@ class Students extends Component {
                             <div className="article-aside">
                             </div>
                             <div className="article-header sr-up-td1">
-                              <h4>CEO</h4>
+
                             </div>
                             <div className="article-content sr-up-td2">
-                              <h2>Joe Dupont</h2>
+                              <h2>Creartem</h2>
                               <p>
-                                <strong>Résoudre avec facilité</strong>. Lorem ipsum magicum dolor
-                                sit amet, consectetur adipiscing elit. Maecenas a sem ultrices
-                                neque v ehicula fermentum a sit amet nulla.
+                                <strong>Google Fonts</strong>. Apparently we had reached a great height
+                                in the atmosphere, for the sky was dead black, and the stars has ceased to twinkle
+                                By the same illusion which lifts the horizon of the sea to a level of the spectator
+                                on a hillside, the sable cloud beneath was dished out, and the car seemed to float
+                                in the middle of an immense dark sphere, whose upper half was strewn with silver.
+                                Looking down into the dark gulf below, I could see a ruddy light streaming through
+                                the rift in the clouds.
                               </p>
-                              <p>This describes what we do and what is our mission. Lorem ipsum
-                                magicum dolor sit amet, consectetur adipiscing elit. Maecenas
-                                a sem ultrices neque vehicula fermentum a sit amet nulla.
-                              </p>
+
                             </div>
 
                             <div className="btns-action sr-up-td3">
                               <a href="http://instagram.com/" className="btn btn-social">
-                                <i className="icon fa fa-envelope"></i>
+                                <i className="icon fas fa-envelope"></i>
                               </a>
 
 
@@ -165,10 +166,10 @@ class Students extends Component {
 
                             <div className="media-footer text-right">
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-facebook"></i>
+                                <i className="icon fab fa-facebook"></i>
                               </a>
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-address-book"></i>
+                                <i className="icon fas fa-address-book"></i>
                               </a>
                             </div>
                           </div>
@@ -191,13 +192,13 @@ class Students extends Component {
                             </div>
                             <div className="media-footer text-right">
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-facebook"></i>
+                                <i className="icon fab fa-facebook"></i>
                               </a>
                               <a className="btn btn-social" href="/">
                                 <i className="icon fa fa-address-book"></i>
                               </a>
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-external-link"></i>
+                                <i className="icon fas fa-external-link-square-alt"></i>
                               </a>
                             </div>
                           </div>
@@ -220,10 +221,10 @@ class Students extends Component {
                             </div>
                             <div className="media-footer text-right">
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-facebook"></i>
+                                <i className="icon fab fa-facebook"></i>
                               </a>
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-address-book"></i>
+                                <i className="icon fas fa-address-book"></i>
                               </a>
                             </div>
                           </div>
@@ -254,10 +255,10 @@ class Students extends Component {
                             </div>
                             <div className="media-footer text-right">
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-facebook"></i>
+                                <i className="icon fab fa-facebook"></i>
                               </a>
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-address-book"></i>
+                                <i className="icon fas fa-address-book"></i>
                               </a>
                             </div>
                           </div>
@@ -281,10 +282,10 @@ class Students extends Component {
                             </div>
                             <div className="media-footer text-right">
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-facebook"></i>
+                                <i className="icon fab fa-facebook"></i>
                               </a>
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-address-book"></i>
+                                <i className="icon fas fa-address-book"></i>
                               </a>
                             </div>
                           </div>
@@ -307,10 +308,10 @@ class Students extends Component {
                             </div>
                             <div className="media-footer text-right">
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-facebook"></i>
+                                <i className="icon fab fa-facebook"></i>
                               </a>
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-address-book"></i>
+                                <i className="icon fas fa-address-book"></i>
                               </a>
                             </div>
                           </div>
@@ -352,16 +353,16 @@ class Students extends Component {
 
                             <div className="media-footer text-right">
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-linkedin"></i>
+                                <i className="icon fab fa-linkedin"></i>
                               </a>
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-address-book"></i>
+                                <i className="icon fas fa-address-book"></i>
                               </a>
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-facebook"></i>
+                                <i className="icon fab fa-facebook"></i>
                               </a>
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-external-link"></i>
+                                <i className="icon fas fa-external-link-square-alt"></i>
                               </a>
                             </div>
                           </div>
@@ -385,10 +386,10 @@ class Students extends Component {
 
                             <div className="media-footer text-right">
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-facebook"></i>
+                                <i className="icon fab fa-facebook"></i>
                               </a>
                               <a className="btn btn-social" href="/">
-                                <i className="icon fa fa-address-book"></i>
+                                <i className="icon fas fa-address-book"></i>
                               </a>
                             </div>
 
@@ -408,8 +409,8 @@ class Students extends Component {
                               <div className="mask bg-white"></div>
                             </div>
                             <div className="media-body center-vh text-center text-primary">
-                              <div class="desc sr-up-td1">
-                                <h3 class="display-6">Lecturer</h3>
+                              <div className="desc sr-up-td1">
+                                <h3 className="display-6">Lecturer</h3>
                                 <p>Senior Lecturer at Toi Ohomai Institute of Technology.</p>
                               </div>
                             </div>
@@ -454,10 +455,10 @@ class Students extends Component {
                               </div>
                               <div className="media-footer text-right">
                                 <a className="btn btn-social" href="/contact">
-                                  <i className="icon fa fa-phone"></i>
+                                  <i className="icon fas fa-phone"></i>
                                 </a>
                                 <a className="btn btn-social" href="/">
-                                  <i className="icon fa fa-envelope-open"></i>
+                                  <i className="icon fas fa-envelope-open"></i>
                                 </a>
                               </div>
                             </div>

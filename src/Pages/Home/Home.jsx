@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import AboutTitle from '../About/AboutTitle';
-import AboutContent from '../About/AboutContent';
 import Typist from 'react-typist';
 
 class Home extends Component {
@@ -36,7 +34,7 @@ class Home extends Component {
                             {/*<img className="img img-block" src="/theme/img/items/img-sample1.jpg" alt="Generic placeholder image" />*/}
                             <div className="mask"></div>
                             <div className="icon d-none d-md-block">
-                              <i className="fa fa-home"></i>
+                              <i className="fas fa-home"></i>
                             </div>
                           </div>
                           {/*title*/}
@@ -54,21 +52,13 @@ class Home extends Component {
                             <Typist>
                             <h2 className="display-5 text-slide-in text-center center">{page.title.rendered}</h2>
                             </Typist>
+                            <br />
                               <div className="text-center center" dangerouslySetInnerHTML={ {__html: page.content.rendered} } />
                           </div>
                           <div className="media-body">
                             {/*Panel 1 Action buttons*/}
-                            <div className="btns-action anim-4">
-                              <a className="btn btn-underline btn-primary" href="index-2.html#about">
-                                <span className="text">Who we are</span>
-                              </a>
-                              <a className="btn btn-underline btn-primary" href="index-2.html#services">
-                                <span className="text">Services</span>
-                              </a>
-                              <a className="btn btn-underline btn-primary" href="index-2.html#gallery">
-                                <span className="text">Use case</span>
-                              </a>
-                            </div>
+
+
                           </div>
                         </div>
                       </div>
@@ -79,27 +69,19 @@ class Home extends Component {
                             {/*}<img className="img d-flex" src="/theme/img/items/img-sample2.jpg" alt="Generic placeholder image" />*/}
                             <div className="mask"></div>
                             <div className="icon">
-                              <i className="fa fa-list-ul"></i>
+                              <i className="fas fa-list-ul"></i>
                             </div>
                           </div>
                           {/*title*/}
                           <div className="media-title text-center">
-                            <h2 className="display-5 text-slide-in text-center">About Creartem</h2>
+                          <Typist>
+                            <h2 className="display-5 text-slide-in text-center">About Creartem</h2></Typist>
                             <div><br />Hi There, Creartem is a web agency based in Rotorua. Managed by tutors at Toi-Ohomai Institute of Technology and run by web development students.</div>
                           </div>
                           <div className="media-body">
                             {/*Panel 2 Action buttons*/}
-                            <div className="btns-action anim-4">
-                              <a className="btn btn-underline btn-primary" href="projects.html">
-                                <span className="text">Works</span>
-                              </a>
-                              <a className="btn btn-underline btn-primary" href="products.html">
-                                <span className="text">Products</span>
-                              </a>
-                              <a className="btn btn-underline btn-primary" href="index-2.html#contact">
-                                <span className="text">Contact</span>
-                              </a>
-                            </div>
+
+
                           </div>
                         </div>
                       </div>
@@ -110,27 +92,18 @@ class Home extends Component {
                             {/*}<img className="img img-block" src="/theme/img/items/img-sample4.jpg" alt="Generic placeholder image" />*/}
                             <div className="mask"></div>
                             <div className="icon">
-                              <i className="fa fa-user-circle-o"></i>
+                              <i className="fas fa-user-circle-o"></i>
                             </div>
                           </div>
                           {/*title*/}
                           <div className="media-title">
-                            <h2 className="display-5 text-slide-in text-center">Creartem Services</h2>
+                          <Typist>
+                            <h2 className="display-5 text-slide-in text-center">Creartem Services</h2></Typist>
                             <div className="text-center"><br />We have the best team member in town. Everybody like us. We have the best team member in town. Everybody like us.</div>
                           </div>
                           <div className="media-body">
                             {/*Panel 3 Action buttons*/}
-                            <div className="btns-action anim-4">
-                              <a className="btn btn-underline btn-primary" href="team.html">
-                                <span className="text">Our agents</span>
-                              </a>
-                              <a className="btn btn-underline btn-primary" href="item.html">
-                                <span className="text">Job Offers</span>
-                              </a>
-                              <a className="btn btn-underline btn-primary" href="blog.html">
-                                <span className="text">Blog and Advices</span>
-                              </a>
-                            </div>
+
                           </div>
                         </div>
                       </div>

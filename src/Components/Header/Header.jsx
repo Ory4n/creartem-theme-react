@@ -56,31 +56,21 @@ const Header = () => {
         </div>
 
         <div className="navbar-footer">
+        <div className="row">
+          <div className="col-7 d-flex align-items-end">
+          <p className="note display-small">&copy; 2018 Creartem
+          </p>
+        </div>
+</div>
           <div className="menu-social text-primary">
             <div className="row">
               <div className="col-7 d-flex align-items-end">
-                <p className="note display-small">Designed by Oryan and Vanessa
+
+                <p className="note display-small">Designed & Developed by CodeDesigns
                 </p>
+                <br />
               </div>
-              <div className="col-5 social">
-                <ul className="list">
-                  <li>
-                    <a href="http://facebook.com/">
-                      <i className="icon fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="http://twitter/miradontsoa">
-                      <i className="icon fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="http://linkedin.com/">
-                      <i className="icon fa fa-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+
             </div>
           </div>
         </div>

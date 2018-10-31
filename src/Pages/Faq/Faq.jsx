@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import WebDesignTitle from '../Sections/WebDesign/Title';
-import WebDesignContent from '../Sections/WebDesign/Content';
-import WebDevTitle from '../Sections/WebDev/Title';
-import WebDevContent from '../Sections/WebDev/Content';
 
 class Faq extends Component {
   constructor(){

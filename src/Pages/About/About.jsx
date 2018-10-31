@@ -44,7 +44,7 @@ class About extends Component {
                       </div>
 
                       <div className="btns-action sr-up-td3">
-                        <a className="btn btn-normal" href="/contact" alt="creartem agency contact details">
+                        <a className="btn btn-normal" href="/faq" alt="creartem agency contact details">
                           <span className="text">Contact</span>
                           <span className="icon">
                             <span className="arrow-right"></span>
@@ -75,7 +75,7 @@ class About extends Component {
                         <div className="item media anim about">
                           <article className="article-page margin-tb width-article">
                             <div className="article-header sr-up-td1">
-                              <h4>Expertise</h4>
+
                             </div>
                             <div className="article-content sr-up-td1">
                               {/*Web Design Section Title from Wordpress*/}
@@ -130,7 +130,7 @@ class About extends Component {
                         <div className="item media anim border-top-orange">
                           <article className="article-page margin-tb width-article">
                             <div className="article-header sr-up-td1">
-                              <h4>Expertise</h4>
+                        
                             </div>
                             <div className="article-content sr-up-td1">
                               {/*Web Development Section Title from Wordpress*/}

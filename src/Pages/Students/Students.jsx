@@ -39,15 +39,13 @@ class Students extends Component {
 
                             </div>
                             <div className="article-content sr-up-td2">
-                              <h2>Creartem</h2>
+                              <h2>Creartem Student Run Web Agency</h2>
                               <p>
-                                <strong>Google Fonts</strong>. Apparently we had reached a great height
-                                in the atmosphere, for the sky was dead black, and the stars has ceased to twinkle
-                                By the same illusion which lifts the horizon of the sea to a level of the spectator
-                                on a hillside, the sable cloud beneath was dished out, and the car seemed to float
-                                in the middle of an immense dark sphere, whose upper half was strewn with silver.
-                                Looking down into the dark gulf below, I could see a ruddy light streaming through
-                                the rift in the clouds.
+                                <strong>With the desire to impact our local community</strong> & help small businesses, individuals
+                                and not-for-profit organisations, has prompted tutor Douglas MacKenzie to start up a student
+                                run agency that allows students to work with real clients and enable these studets to gain
+                                valuable work experience. The Agency is overlooked by Doug but is run by mostly Level 7 students in their final
+                                semester.
                               </p>
 
                             </div>
@@ -375,7 +373,7 @@ class Students extends Component {
                             </div>
 
                             <div className="media-footer text-right">
-                              
+
                               <a className="btn btn-social" href="mailto:lightgrey1238@gmail.com?Subject=Hello%20again">
                                 <i className="icon fas fa-address-book"></i>
                               </a>

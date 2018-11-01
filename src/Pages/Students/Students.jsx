@@ -165,10 +165,8 @@ class Students extends Component {
                             </div>
 
                             <div className="media-footer text-right">
-                              <a className="btn btn-social" href="/">
-                                <i className="icon fab fa-facebook"></i>
-                              </a>
-                              <a className="btn btn-social" href="/">
+
+                              <a className="btn btn-social" href="mailto:gargnamita2@gmail.com?Subject=Hello%20again">
                                 <i className="icon fas fa-address-book"></i>
                               </a>
                             </div>
@@ -191,13 +189,13 @@ class Students extends Component {
                               </a>
                             </div>
                             <div className="media-footer text-right">
-                              <a className="btn btn-social" href="/">
+                              <a className="btn btn-social" href="https://www.facebook.com/codedesignz">
                                 <i className="icon fab fa-facebook"></i>
                               </a>
-                              <a className="btn btn-social" href="/">
+                              <a className="btn btn-social" href="mailto:vanessalemme@gmail.com?Subject=Hello%20again">
                                 <i className="icon fa fa-address-book"></i>
                               </a>
-                              <a className="btn btn-social" href="/">
+                              <a className="btn btn-social" href="http://www.codedesigns.nz">
                                 <i className="icon fas fa-external-link-square-alt"></i>
                               </a>
                             </div>
@@ -220,10 +218,8 @@ class Students extends Component {
                               </a>
                             </div>
                             <div className="media-footer text-right">
-                              <a className="btn btn-social" href="/">
-                                <i className="icon fab fa-facebook"></i>
-                              </a>
-                              <a className="btn btn-social" href="/">
+
+                              <a className="btn btn-social" href="mailto:zestrella@gbox.adnu.edu.ph?Subject=Hello%20again">
                                 <i className="icon fas fa-address-book"></i>
                               </a>
                             </div>
@@ -254,10 +250,8 @@ class Students extends Component {
                               </a>
                             </div>
                             <div className="media-footer text-right">
-                              <a className="btn btn-social" href="/">
-                                <i className="icon fab fa-facebook"></i>
-                              </a>
-                              <a className="btn btn-social" href="/">
+
+                              <a className="btn btn-social" href="mailto:saloni92gupta@gmail.com?Subject=Hello%20again">
                                 <i className="icon fas fa-address-book"></i>
                               </a>
                             </div>
@@ -281,10 +275,8 @@ class Students extends Component {
                               </a>
                             </div>
                             <div className="media-footer text-right">
-                              <a className="btn btn-social" href="/">
-                                <i className="icon fab fa-facebook"></i>
-                              </a>
-                              <a className="btn btn-social" href="/">
+
+                              <a className="btn btn-social" href="mailto:skylark1218@gmail.com?Subject=Hello%20again">
                                 <i className="icon fas fa-address-book"></i>
                               </a>
                             </div>
@@ -307,10 +299,8 @@ class Students extends Component {
                               </a>
                             </div>
                             <div className="media-footer text-right">
-                              <a className="btn btn-social" href="/">
-                                <i className="icon fab fa-facebook"></i>
-                              </a>
-                              <a className="btn btn-social" href="/">
+
+                              <a className="btn btn-social" href="mailto:donjiouano@gmail.com?Subject=Hello%20again">
                                 <i className="icon fas fa-address-book"></i>
                               </a>
                             </div>
@@ -355,13 +345,13 @@ class Students extends Component {
                               <a className="btn btn-social" href="/">
                                 <i className="icon fab fa-linkedin"></i>
                               </a>
-                              <a className="btn btn-social" href="/">
+                              <a className="btn btn-social" href="mailto:info.oryan@gmail.com?Subject=Hello%20again">
                                 <i className="icon fas fa-address-book"></i>
                               </a>
-                              <a className="btn btn-social" href="/">
+                              <a className="btn btn-social" href="https://www.facebook.com/codedesignz">
                                 <i className="icon fab fa-facebook"></i>
                               </a>
-                              <a className="btn btn-social" href="/">
+                              <a className="btn btn-social" href="http://www.codedesigns.nz">
                                 <i className="icon fas fa-external-link-square-alt"></i>
                               </a>
                             </div>
@@ -385,10 +375,8 @@ class Students extends Component {
                             </div>
 
                             <div className="media-footer text-right">
-                              <a className="btn btn-social" href="/">
-                                <i className="icon fab fa-facebook"></i>
-                              </a>
-                              <a className="btn btn-social" href="/">
+                              
+                              <a className="btn btn-social" href="mailto:lightgrey1238@gmail.com?Subject=Hello%20again">
                                 <i className="icon fas fa-address-book"></i>
                               </a>
                             </div>

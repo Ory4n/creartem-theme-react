@@ -8,7 +8,7 @@ class WebDesignTitle extends Component {
     }
   }
   componentDidMount() {
-    let pagesURL = "http://creartem.nz/wp-json/wp/v2/sections?slug=web-design embed";
+    let pagesURL = "http://creartem.nz/wp/wp-json/wp/v2/sections?slug=web-design embed";
     fetch(pagesURL)
     .then(response => response.json())
     .then(response => {

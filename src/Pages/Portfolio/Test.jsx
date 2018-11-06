@@ -8,7 +8,7 @@ class Test extends Component {
     }
   }
   componentDidMount() {
-    let pagesURL = "http://creartem.nz/wp-json/wp/v2/projects?_embed";
+    let pagesURL = "http://creartem.nz/wp/wp-json/wp/v2/projects?_embed";
     fetch(pagesURL)
     .then(response => response.json())
     .then(response => {

@@ -8,7 +8,7 @@ class WebDevContent extends Component {
     }
   }
   componentDidMount() {
-    let pagesURL = "http://creartem.nz/wp-json/wp/v2/sections?slug=web-dev embed";
+    let pagesURL = "http://creartem.nz/wp/wp-json/wp/v2/sections?slug=web-dev embed";
     fetch(pagesURL)
     .then(response => response.json())
     .then(response => {

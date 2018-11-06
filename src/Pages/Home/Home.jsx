@@ -9,7 +9,7 @@ class Home extends Component {
     }
   }
   componentDidMount() {
-    let pagesURL = "http://creartem.nz/wp-json/wp/v2/pages?slug=home embed";
+    let pagesURL = "http://creartem.nz/wp/wp-json/wp/v2/pages?slug=home embed";
     fetch(pagesURL)
     .then(response => response.json())
     .then(response => {
@@ -99,7 +99,7 @@ class Home extends Component {
                           <div className="media-title">
                           <Typist>
                             <h2 className="display-5 text-slide-in text-center">Creartem Services</h2></Typist>
-                            <div className="text-center"><br />We have the best team member in town. Everybody like us. We have the best team member in town. Everybody like us.</div>
+                            <div className="text-center"><br />We offer a range of web services such as CMS based websites and full-stack websites.</div>
                           </div>
                           <div className="media-body">
                             {/*Panel 3 Action buttons*/}

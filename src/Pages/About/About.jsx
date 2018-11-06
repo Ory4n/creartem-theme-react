@@ -12,7 +12,7 @@ class About extends Component {
     }
   }
   componentDidMount() {
-    let pagesURL = "http://creartem.nz/wp-json/wp/v2/pages?slug=about embed";
+    let pagesURL = "http://creartem.nz/wp/wp-json/wp/v2/pages?slug=about embed";
     fetch(pagesURL)
     .then(response => response.json())
     .then(response => {
@@ -130,7 +130,7 @@ class About extends Component {
                         <div className="item media anim border-top-orange">
                           <article className="article-page margin-tb width-article">
                             <div className="article-header sr-up-td1">
-                        
+
                             </div>
                             <div className="article-content sr-up-td1">
                               {/*Web Development Section Title from Wordpress*/}

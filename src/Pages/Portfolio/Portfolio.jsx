@@ -8,7 +8,7 @@ class Portfolio extends Component {
     }
   }
   componentDidMount() {
-    let pagesURL = "http://creartem.nz/wp-json/wp/v2/projects?_embed";
+    let pagesURL = "http://creartem.nz/wp/wp-json/wp/v2/projects?_embed";
     fetch(pagesURL)
     .then(response => response.json())
     .then(response => {
@@ -28,7 +28,7 @@ class Portfolio extends Component {
                         <div className="img-frame-normal">
                           <div className="img-1 shadow">
                             <a href="index-style1.html">
-                              <img className="img" src="/theme/img/items/grey_power_hamilton.png" alt="demo" />
+                              <img className="img" src={page.fi_thumbnailpic} alt="demo" />
                             </a>
                           </div>
                           <div className="legend text-left">

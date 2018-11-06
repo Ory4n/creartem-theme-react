@@ -33,9 +33,6 @@ class Home extends Component {
                           <div className="media-img">
                             {/*<img className="img img-block" src="/theme/img/items/img-sample1.jpg" alt="Generic placeholder image" />*/}
                             <div className="mask"></div>
-                            <div className="icon d-none d-md-block">
-                              <i className="fas fa-home"></i>
-                            </div>
                           </div>
                           {/*title*/}
                           <div className="media-title">
@@ -53,7 +50,7 @@ class Home extends Component {
                             <h2 className="display-5 text-slide-in text-center center">{page.title.rendered}</h2>
                             </Typist>
                             <br />
-                              <div className="text-center center" dangerouslySetInnerHTML={ {__html: page.content.rendered} } />
+                              <div dangerouslySetInnerHTML={ {__html: page.content.rendered} } />
                           </div>
                           <div className="media-body">
                             {/*Panel 1 Action buttons*/}
@@ -68,9 +65,6 @@ class Home extends Component {
                           <div className="media-img">
                             {/*}<img className="img d-flex" src="/theme/img/items/img-sample2.jpg" alt="Generic placeholder image" />*/}
                             <div className="mask"></div>
-                            <div className="icon">
-                              <i className="fas fa-list-ul"></i>
-                            </div>
                           </div>
                           {/*title*/}
                           <div className="media-title text-center">
@@ -91,9 +85,6 @@ class Home extends Component {
                           <div className="media-img">
                             {/*}<img className="img img-block" src="/theme/img/items/img-sample4.jpg" alt="Generic placeholder image" />*/}
                             <div className="mask"></div>
-                            <div className="icon">
-                              <i className="fas fa-user-circle-o"></i>
-                            </div>
                           </div>
                           {/*title*/}
                           <div className="media-title">

@@ -33,28 +33,18 @@ class Students extends Component {
                       <div className="col-12 col-md-12 col-lg-12 order-2 order-md-2 order-lg-2 text-left center-v">
                         <div className="item media anim">
                           <article className="article-page margin-tb width-article">
-                            <div className="article-aside">
-                            </div>
                             <div className="article-header sr-up-td1">
 
                             </div>
                             <div className="article-content sr-up-td2">
-                              <h2>Creartem Student Run Web Agency</h2>
-                              <p>
-                                <strong>With the desire to impact our local community</strong> & help small businesses, individuals
-                                and not-for-profit organisations, has prompted tutor Douglas MacKenzie to start up a student
+                              <h2>Creartem Student Web Agency</h2>
+                              <p className="text-center">
+                                <strong>With a desire to impact our local community & help small businesses, individuals
+                                and not-for-profit organisations,</strong> has prompted Toi Ohomai tutor Douglas MacKenzie to start up a student
                                 run agency that allows students to work with real clients and enable these studets to gain
                                 valuable work experience. The Agency is overlooked by Doug but is run by mostly Level 7 students in their final
                                 semester.
                               </p>
-
-                            </div>
-
-                            <div className="btns-action sr-up-td3">
-                              <a href="http://instagram.com/" className="btn btn-social">
-                                <i className="icon fas fa-envelope"></i>
-                              </a>
-
 
                             </div>
                           </article>
@@ -103,7 +93,7 @@ class Students extends Component {
                               <div className="desc sr-up-td1">
                                 <h3 className="display-6">Team</h3>
                                 <p>
-                                  Great services means great team. Here are the great people behind.
+                                  Great services means great team. Here are the past and present students behind Creartem.
                                 </p>
                               </div>
                             </div>
@@ -165,7 +155,7 @@ class Students extends Component {
                             <div className="media-footer text-right">
 
                               <a className="btn btn-social" href="mailto:gargnamita2@gmail.com?Subject=Hello%20again">
-                                <i className="icon fas fa-address-book"></i>
+                                <i className="icon fas fa-envelope"></i>
                               </a>
                             </div>
                           </div>
@@ -191,10 +181,10 @@ class Students extends Component {
                                 <i className="icon fab fa-facebook"></i>
                               </a>
                               <a className="btn btn-social" href="mailto:vanessalemme@gmail.com?Subject=Hello%20again">
-                                <i className="icon fa fa-address-book"></i>
+                                <i className="icon fas fa-envelope"></i>
                               </a>
                               <a className="btn btn-social" href="http://www.codedesigns.nz">
-                                <i className="icon fas fa-external-link-square-alt"></i>
+                                <i className="icon fas fa-globe"></i>
                               </a>
                             </div>
                           </div>
@@ -218,7 +208,7 @@ class Students extends Component {
                             <div className="media-footer text-right">
 
                               <a className="btn btn-social" href="mailto:zestrella@gbox.adnu.edu.ph?Subject=Hello%20again">
-                                <i className="icon fas fa-address-book"></i>
+                                <i className="icon fas fa-envelope"></i>
                               </a>
                             </div>
                           </div>
@@ -250,7 +240,7 @@ class Students extends Component {
                             <div className="media-footer text-right">
 
                               <a className="btn btn-social" href="mailto:saloni92gupta@gmail.com?Subject=Hello%20again">
-                                <i className="icon fas fa-address-book"></i>
+                                <i className="icon fas fa-envelope"></i>
                               </a>
                             </div>
                           </div>
@@ -275,7 +265,7 @@ class Students extends Component {
                             <div className="media-footer text-right">
 
                               <a className="btn btn-social" href="mailto:skylark1218@gmail.com?Subject=Hello%20again">
-                                <i className="icon fas fa-address-book"></i>
+                                <i className="icon fas fa-envelope"></i>
                               </a>
                             </div>
                           </div>
@@ -299,7 +289,7 @@ class Students extends Component {
                             <div className="media-footer text-right">
 
                               <a className="btn btn-social" href="mailto:donjiouano@gmail.com?Subject=Hello%20again">
-                                <i className="icon fas fa-address-book"></i>
+                                <i className="icon fas fa-envelope"></i>
                               </a>
                             </div>
                           </div>
@@ -340,17 +330,14 @@ class Students extends Component {
                             </div>
 
                             <div className="media-footer text-right">
-                              <a className="btn btn-social" href="/">
+                              <a className="btn btn-social" href="mailto:info.oryan@gmail.com">
+                                <i className="icon fas fa-envelope"></i>
+                              </a>
+                              <a className="btn btn-social" href="https://nz.linkedin.com/in/oryanmclean">
                                 <i className="icon fab fa-linkedin"></i>
                               </a>
-                              <a className="btn btn-social" href="mailto:info.oryan@gmail.com?Subject=Hello%20again">
-                                <i className="icon fas fa-address-book"></i>
-                              </a>
-                              <a className="btn btn-social" href="https://www.facebook.com/codedesignz">
-                                <i className="icon fab fa-facebook"></i>
-                              </a>
-                              <a className="btn btn-social" href="http://www.codedesigns.nz">
-                                <i className="icon fas fa-external-link-square-alt"></i>
+                              <a className="btn btn-social" href="http://www.myprofile.nz">
+                                <i className="icon fas fa-globe"></i>
                               </a>
                             </div>
                           </div>
@@ -375,7 +362,7 @@ class Students extends Component {
                             <div className="media-footer text-right">
 
                               <a className="btn btn-social" href="mailto:lightgrey1238@gmail.com?Subject=Hello%20again">
-                                <i className="icon fas fa-address-book"></i>
+                                <i className="icon fas fa-envelope"></i>
                               </a>
                             </div>
 

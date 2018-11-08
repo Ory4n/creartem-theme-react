@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactContactForm from 'react-mail-form';
 
 class Faq extends Component {
   constructor(){
@@ -28,19 +29,12 @@ class Faq extends Component {
 
                   <div className="section-content faq">
                     <div className="row media-twoside">
-                      <div className="col-12 col-md-4 col-lg-4 order-1 order-md-1 order-lg-1">
-                        <div className="item media anim translateUp">
-                          <div className="media-img">
-                            <img className="img img-block" src="/theme/img/Map.png" alt="About Creartem" />
-                          </div>
-                        </div>
-                      </div>
 
-                      <div className="col-12 col-md-8 0col-lg-8 order-2 order-md-2 order-lg-2 text-left center-v">
+                      <div className="col-12 col-md-7 0col-lg-7 order-1 order-md-1 order-lg-1 text-left center-v">
                         <div className="item media anim faqs">
                           <article className="article-page margin-tb width-article-faq">
                             <div className="article-header sr-up-td1">
-                              <h2>Contact</h2>
+                              <h2>Contact Creartem</h2>
                             </div>
                             <div className="article-content-faq sr-up-td1">
                             <form action="/action_page.php">
@@ -60,19 +54,7 @@ class Faq extends Component {
                                         <button type="submit" className="btn btn-default">Submit</button>
                                       </form>
                                       <br />
-                                      <br />
-                                      <div class="row">
-                                      <div class="col-6 col-m-6 col-lg-6">
-                                      <u>
-                                      <h5>Privacy Policy</h5>
-                                      </u>
-                                      </div>
-                                      <div class="col-6 col-m-6 col-lg-6">
-                                      <u>
-                                      <h5>FAQ's</h5>
-                                      </u>
-                                      </div>
-                                      </div>
+                                      <h2>FAQS & Privacy Policy</h2>
 
                             </div>
 
@@ -82,11 +64,48 @@ class Faq extends Component {
                           </article>
                         </div>
                       </div>
+
+                      <div className="col-12 col-md-5 col-lg-5 order-2 order-md-2 order-lg-2">
+                        <div className="item media anim translateUp">
+                          <div className="media-img contact-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=" width="400" height="300" frameborder="0" style={{border:"0"}} allowfullscreen></iframe>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+
+                    <div className="row media-twoside article-page margin-tb width-article-faq">
+                    <div className="col-12 col-md-12 col-lg-12">
+                    <div className="accordion">
+                    <div className="accordion__single">
+                    <input className="accordion__single__hidden" type="checkbox" id="question-one" />
+                    <label className="accordion__single__question" for="question-one">Privacy Policy</label>
+                    <p className="accordion__single__answer">lorem ipsum dolor sit amet consectetuer adipiscing elit. lorem ipsum dolor sit amet consectetuer adipiscing elit.</p>
+                    </div>
+                    <div className="accordion__single">
+                    <input className="accordion__single__hidden" type="checkbox" id="question-two" />
+                    <label className="accordion__single__question" for="question-two">Faqs One</label>
+                    <p className="accordion__single__answer">lorem ipsum dolor sit amet consectetuer adipiscing elit. lorem ipsum dolor sit amet consectetuer adipiscing elit. </p>
+                    </div>
+                    <div className="accordion__single">
+                    <input className="accordion__single__hidden" type="checkbox" id="question-three" />
+                    <label className="accordion__single__question" for="question-three">Faqs 2</label>
+                    <p className="accordion__single__answer">
+                    lorem ipsum dolor sit amet consectetuer adipiscing elit. lorem ipsum dolor sit amet consectetuer adipiscing elit.
+                    </p>
+                    </div>
+                    <div className="accordion__single">
+                    <input className="accordion__single__hidden" type="checkbox" id="question-four" />
+                    <label className="accordion__single__question" for="question-four">Faqs 3</label>
+                    <p className="accordion__single__answer">
+                    lorem ipsum dolor sit amet consectetuer adipiscing elit. lorem ipsum dolor sit amet consectetuer adipiscing elit.
+                    </p>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+
                   </div>
-
-
-
 
 
                   <footer className="section-footer scrolldown">

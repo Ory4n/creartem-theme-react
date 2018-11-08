@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Typist from 'react-typist';
+import HomeContent from './HomeContent';
 
 class Home extends Component {
   constructor(){
@@ -29,10 +30,13 @@ class Home extends Component {
                     <div className="row row-full">
                       {/*Panel 1*/}
                       <div className="col col-12 col-md-4 col-lg-4 text-left">
-                        <div className="media media-panel bordered">
+                        <div className="media media-panel">
                           <div className="media-img">
                             {/*<img className="img img-block" src="/theme/img/items/img-sample1.jpg" alt="Generic placeholder image" />*/}
                             <div className="mask"></div>
+                              <div class="icon d-none d-md-block">
+                      <i class="fas fa-home"></i>
+                    </div>
                           </div>
                           {/*title*/}
                           <div className="media-title">
@@ -46,35 +50,48 @@ class Home extends Component {
                                 <span className="line sub">Web Agency</span>
                               </h3>
                             </div>
-                            <Typist>
                             <h2 className="display-5 text-slide-in text-center center">{page.title.rendered}</h2>
-                            </Typist>
-                            <br />
-                              <div dangerouslySetInnerHTML={ {__html: page.content.rendered} } />
+                              <div className="text-center center"><br /><HomeContent /></div>
                           </div>
                           <div className="media-body">
                             {/*Panel 1 Action buttons*/}
-
+                            <div className="btns-action sr-up-td3">
+                              <a className="btn btn-normal" href="/faq" alt="creartem agency contact details">
+                                <span className="text">Contact Us</span>
+                                <span className="icon">
+                                  <span className="arrow-right"></span>
+                                </span>
+                              </a>
+                            </div>
 
                           </div>
                         </div>
                       </div>
                       {/*Panel 2*/}
                       <div className="col col-12 col-md-4 col-lg-4 text-left">
-                        <div className="media media-panel bordered">
+                        <div className="media media-panel">
                           <div className="media-img">
                             {/*}<img className="img d-flex" src="/theme/img/items/img-sample2.jpg" alt="Generic placeholder image" />*/}
                             <div className="mask"></div>
+                              <div class="icon d-none d-md-block">
+                      <i class="fas fa-question-circle"></i>
+                    </div>
                           </div>
                           {/*title*/}
                           <div className="media-title text-center">
-                          <Typist>
-                            <h2 className="display-5 text-slide-in text-center">About Creartem</h2></Typist>
+                            <h2 className="display-5 text-slide-in text-center">Who Are <br />We</h2>
                             <div><br />Hi There, Creartem is a web agency based in Rotorua. Managed by tutors at Toi-Ohomai Institute of Technology and run by web development students.</div>
                           </div>
                           <div className="media-body">
                             {/*Panel 2 Action buttons*/}
-
+                            <div className="btns-action sr-up-td3">
+                              <a className="btn btn-normal" href="/about" alt="about creartem agency">
+                                <span className="text">About Us</span>
+                                <span className="icon">
+                                  <span className="arrow-right"></span>
+                                </span>
+                              </a>
+                            </div>
 
                           </div>
                         </div>
@@ -85,15 +102,25 @@ class Home extends Component {
                           <div className="media-img">
                             {/*}<img className="img img-block" src="/theme/img/items/img-sample4.jpg" alt="Generic placeholder image" />*/}
                             <div className="mask"></div>
+                              <div class="icon d-none d-md-block">
+                      <i class="fas fa-code"></i>
+                    </div>
                           </div>
                           {/*title*/}
                           <div className="media-title">
-                          <Typist>
-                            <h2 className="display-5 text-slide-in text-center">Creartem Services</h2></Typist>
-                            <div className="text-center"><br />We offer a range of web services such as CMS based websites and full-stack websites.</div>
+                            <h2 className="display-5 text-slide-in text-center">What We <br />Do</h2>
+                            <div className="text-center"><br />We offer a range of website design and development services, from simple brochureware websites to more advanced applications such as full-stack and ecommerce development. .</div>
                           </div>
                           <div className="media-body">
                             {/*Panel 3 Action buttons*/}
+                            <div className="btns-action sr-up-td3">
+                              <a className="btn btn-normal" href="/services" alt="creartem web design services">
+                                <span className="text">Our Services</span>
+                                <span className="icon">
+                                  <span className="arrow-right"></span>
+                                </span>
+                              </a>
+                            </div>
 
                           </div>
                         </div>

@@ -8,7 +8,7 @@ class Services extends Component {
     }
   }
   componentDidMount() {
-    let pagesURL = "http://creartem.nz/wp/wp-json/wp/v2/pages?slug=about embed";
+    let pagesURL = "http://creartem.nz/wp/wp-json/wp/v2/pages?slug=services embed";
     fetch(pagesURL)
     .then(response => response.json())
     .then(response => {
@@ -29,11 +29,8 @@ class Services extends Component {
                       <div className="col-12 col-lg-6 text-center">
                         {/*Title and Description*/}
                         <div className="title-desc">
-                          <h2 className="display-4 display-title anim-1">Services</h2>
-                          <p className="anim-2">List of our services. Lorem ipsum magicum dolor sit amet, consectetur
-                            adipiscing elit. Maecenas a sem ultrices neque vehicula fermentum
-                            a sit amet nulla.
-                          </p>
+                          <h2 className="display-4 display-title anim-1">{page.title.rendered}</h2>
+                          <div dangerouslySetInnerHTML={ {__html: page.content.rendered} } />
                         </div>
                       </div>
                     </div>
@@ -46,14 +43,8 @@ class Services extends Component {
                           <h3 className="title-icon">01</h3>
                         </div>
                         <div className="media-body">
-                          <a href="/">
-                            <h4>Coding</h4>
-                            <p>An awesome service that we offer to you. This is just a placeholder
-                              text.</p>
-                          </a>
-                          <a className="btn btn-underline btn-primary" href="/">
-                            <span className="text">Details ...</span>
-                          </a>
+                            <h4>Web Design</h4>
+                            <p>Web design is an important aspect of any website, it helps you to gain more traffic on your website.</p>
                         </div>
                       </div>
                       {/*Item 2*/}
@@ -62,15 +53,9 @@ class Services extends Component {
                           <h3 className="title-icon">02</h3>
                         </div>
                         <div className="media-body">
-                          <a href="/">
-                            <h4>Mechanics</h4>
-                            <p>An awesome service that we offer to you. This is just a placeholder
-                              text.</p>
-                          </a>
-                          <a className="btn btn-underline btn-primary" href="/">
-                            <span className="text">Details ...</span>
-                          </a>
-                        </div>
+                            <h4>Web Development</h4>
+                            <p>The back-end is what you don’t see but what makes the site run. This is the server, the database and server-side applications. </p>
+                          </div>
                       </div>
                       {/*Item 3*/}
                       <div className="item media">
@@ -78,15 +63,8 @@ class Services extends Component {
                           <h3 className="title-icon">03</h3>
                         </div>
                         <div className="media-body">
-                          <a href="/">
-                            <h4>Analytics</h4>
-                            <p>An awesome service that we offer to you. This is just a placeholder
-                              text.</p>
-                          </a>
-                          <a className="btn btn-underline btn-primary" href="/">
-                            <span className="text">Details ...</span>
-                          </a>
-                        </div>
+                            <h4>Mobile Applications</h4>
+                            <p>We provide mobile application development for both Android and IOS devices.</p></div>
                       </div>
                     </div>
                   </div>

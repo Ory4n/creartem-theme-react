@@ -79,7 +79,7 @@ class About extends Component {
                             </div>
                             <div className="article-content sr-up-td1">
                               {/*Web Design Section Title from Wordpress*/}
-                              <h1 className="display-3"><WebDesignTitle /></h1>
+                              <h2><WebDesignTitle /></h2>
                               {/*Web Design Section Content from Wordpress*/}
                               <WebDesignContent />
                             </div>
@@ -134,7 +134,7 @@ class About extends Component {
                             </div>
                             <div className="article-content sr-up-td1">
                               {/*Web Development Section Title from Wordpress*/}
-                              <h2><WebDevTitle /></h2>
+                              <h2 ><WebDevTitle /></h2>
                               {/*Web Development Section Content section from Wordpress*/}
                               <WebDevContent />
                             </div>

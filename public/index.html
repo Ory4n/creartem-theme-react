@@ -25,11 +25,14 @@
   <link rel="stylesheet" href="/dist/main.css" type="text/css" charset="utf-8">
 
   <link rel="stylesheet" href="/theme/css/pageloader.css">
+  <link rel="stylesheet" src="/theme/js/animation.js">
+
 
   <link rel="stylesheet" href="/theme/css/bootstrap.min.css">
   <link rel="stylesheet" href="/theme/js/vendor/swiper.min.css">
   <link rel="stylesheet" href="/theme/js/vendor/jquery.fullpage.min.css">
   <link rel="stylesheet" href="/theme/js/vegas/vegas.min.css">
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 
   <!-- Main CSS files -->
   <link rel="stylesheet" href="/theme/css/main.css">
@@ -60,7 +63,7 @@
       <div class="cover-bg bg-img " data-image-src="/theme/img/bg-default.jpg"></div>
 
       <!-- Particles as background - uncomment below to use particles/snow -->
-      <div id="particles-js" class="cover-bg pos-abs full-size bg-color" data-bgcolor="rgba(2, 3, 10, 0.7)"></div>
+      <div id="particles-js" class="cover-bg pos-abs full-size bg-color" data-bgcolor="rgba(15, 95, 105, 0.7)"></div>
     </div>
 
     <div id="root"></div>
@@ -74,6 +77,30 @@
     <script src="/theme/js/form_script.js"></script>
     <script src="/theme/js/main.js"></script>
     <script src="/theme/js/particlejs/particles-init.js"></script>
+    <script>
+	$(window).scroll(function() {
+		$('#slideLeft').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("slideLeft");
+			}
+		});
+	});
+</script>
+<script>
+	$(window).scroll(function() {
+		$('#slideLeft').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+900) {
+				$(this).addClass("slideLeft");
+			}
+		});
+	});
+</script>
 
   </body>
 </html>

@@ -15,7 +15,7 @@ const Header = () => {
         </span>
       </button>
       <div className="navbar navbar-wrapper">
-        <div className="navbar-brand">
+        <div id="logo" className="navbar-brand">
           <a href="/">
             <span className="logo">
               <img className="light-logo" src="/theme/img/logo.png" alt="Creartem Logo" />
@@ -49,7 +49,7 @@ const Header = () => {
                 <Link className="nav-link" to="/students">Students</Link>
               </li>
               <li className="nav-item ">
-                <Link className="nav-link" to="/faq">Faqs</Link>
+                <Link className="nav-link" to="/faq">Contact</Link>
               </li>
             </ul>
           </nav>
@@ -57,22 +57,11 @@ const Header = () => {
 
         <div className="navbar-footer">
         <div className="row">
-          <div className="col-7 d-flex align-items-end">
-          <p className="note display-small">&copy; 2018 Creartem
+          <div className="col-12 d-flex align-items-end text-center">
+          <p className="note display-small">&copy; 2018 Creartem. <a href="https://www.codedesigns.nz"><span className="menu-social text-primary">Designed by CodeDesigns</span></a>
           </p>
         </div>
 </div>
-          <div className="menu-social text-primary">
-            <div className="row">
-              <div className="col-7 d-flex align-items-end">
-
-                <p className="note display-small">Designed & Developed by CodeDesigns
-                </p>
-                <br />
-              </div>
-
-            </div>
-          </div>
         </div>
       </div>
     </header>

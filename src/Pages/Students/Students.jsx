@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Students extends Component {
   constructor(){
@@ -37,14 +38,19 @@ class Students extends Component {
 
                             </div>
                             <div className="article-content sr-up-td2">
-                              <h2>Creartem Student Web Agency</h2>
+                              <h2 className="text-center">Creartem Team Members</h2>
                               <p className="text-center">
-                                <strong>With a desire to impact our local community & help small businesses, individuals
-                                and not-for-profit organisations,</strong> has prompted Toi Ohomai tutor Douglas MacKenzie to start up a student
-                                run agency that allows students to work with real clients and enable these studets to gain
-                                valuable work experience. The Agency is overlooked by Doug but is run by mostly Level 7 students in their final
-                                semester.
+                                <strong>Meet Our Team</strong> at the Creartem web agency. A list of past and present students at Toi Ohomai Institute of Technology, including the Web Development Lecturer Doug MacKenzie.
                               </p>
+
+                              <div className="btns-action sr-up-td3 text-center">
+                                <Link className="btn btn-normal" to="/faq" alt="creartem agency contact details">
+                                  <span className="text">Contact Us</span>
+                                  <span className="icon">
+                                    <span className="arrow-right"></span>
+                                  </span>
+                                </Link>
+                              </div>
 
                             </div>
                           </article>

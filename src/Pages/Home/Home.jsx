@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Typist from 'react-typist';
+import { Link } from 'react-router-dom';
 import HomeContent from './HomeContent';
 
 class Home extends Component {
@@ -56,12 +56,12 @@ class Home extends Component {
                           <div className="media-body">
                             {/*Panel 1 Action buttons*/}
                             <div className="btns-action sr-up-td3">
-                              <a className="btn btn-normal" href="/faq" alt="creartem agency contact details">
+                              <Link className="btn btn-normal" to="/faq" alt="creartem agency contact details">
                                 <span className="text">Contact Us</span>
                                 <span className="icon">
                                   <span className="arrow-right"></span>
                                 </span>
-                              </a>
+                              </Link>
                             </div>
 
                           </div>
@@ -85,12 +85,12 @@ class Home extends Component {
                           <div className="media-body">
                             {/*Panel 2 Action buttons*/}
                             <div className="btns-action sr-up-td3">
-                              <a className="btn btn-normal" href="/about" alt="about creartem agency">
+                              <Link className="btn btn-normal" to="/about" alt="about creartem agency">
                                 <span className="text">About Us</span>
                                 <span className="icon">
                                   <span className="arrow-right"></span>
                                 </span>
-                              </a>
+                              </Link>
                             </div>
 
                           </div>
@@ -114,12 +114,12 @@ class Home extends Component {
                           <div className="media-body">
                             {/*Panel 3 Action buttons*/}
                             <div className="btns-action sr-up-td3">
-                              <a className="btn btn-normal" href="/services" alt="creartem web design services">
+                              <Link className="btn btn-normal" to="/services" alt="creartem web design services">
                                 <span className="text">Our Services</span>
                                 <span className="icon">
                                   <span className="arrow-right"></span>
                                 </span>
-                              </a>
+                              </Link>
                             </div>
 
                           </div>

@@ -44,33 +44,22 @@ class Faq extends Component {
               <div className="item media anim">
                 <article className="article-page margin-tb width-article">
                   <div className="article-header sr-up-td1">
-                    <h4>Get in touch with us</h4>
                   </div>
                   {/*title and description*/}
                   <div className="article-content">
                     <div className="sr-up-td1">
-                      <h2>Contact</h2>
-                      <p className="desc-decor">For any questions about our agency and services, send us a message.</p>
+                      <h2>Contact Details</h2>
                     </div>
                     <div className="address-container sr-up-td1">
 
                       <div className="row">
                         <div className="col-12 col-md-6 col-lg-6">
-                          <h4>Contact</h4>
-                          <p>Call: 01 234 567 89</p>
+                          <h4>Phone</h4>
+                          <p>0800 86 46 46</p>
                           <h4>Email</h4>
                           <p>
-                            <a href="mailto:info@creartem.nz" className="text-primary">info@creartem.nz</a>
+                            contact@creartem.nz
                           </p>
-                          <div className="btns-action sr-up-td3">
-                    <a href="https://facebook.com/creartem" alt="Creartem Facebook Profile" className="btn btn-social">
-                      <i className="icon fab fa-facebook"></i>
-                    </a>
-                    <a href="https://instagram.com/creartem" alt="Creartem Instagram Profile" className="btn btn-social">
-                      <i className="icon fab fa-instagram"></i>
-                    </a>
-
-                  </div>
                         </div>
                         <div className="col-12 col-md-6 col-lg-6">
                           <h4>Address</h4>
@@ -107,9 +96,9 @@ class Faq extends Component {
                   </div>
                   <div className="media-body center-vh text-center">
                     <div className="desc wrapper margin-tb">
-                      <h3 className="display-6 mt-0">Subscribe</h3>
+                      <h3 className="display-6 mt-0">Contact Us</h3>
                       <p>
-                        Follow us to get our latest news
+                        Go ahead and send us a message.
                       </p>
                     </div>
                   </div>
@@ -121,33 +110,7 @@ class Faq extends Component {
                     <div className="mask bg-white"></div>
                   </div>
                   <div className="media-body center-vh text-center text-primary padding-0">
-
-                    <form className="send_email_form form-container wrapper margin-tb" method="post" action="ajaxserver/serverfile.php" novalidate="novalidate">
-                      <div className="form-desc sr-up-td1">
-                        <p className="invite">Don't miss any new opportunity, Hurry up! register now :</p>
-                      </div>
-                      <div className="form-input sr-up-td1">
-                        <div className="form-group form-success-gone">
-                          <label for="reg-email">Email</label>
-                          <input id="reg-email" name="email" className="form-control-line form-control-primary" type="email" required="" placeholder="your@email.address" data-validation-type="email" aria-required="true" />
-                        </div>
-                        <div className="form-group mb-0">
-                          <div>
-                            <p className="email-ok invisible form-text-feedback form-success-visible">Your email has been registred, thank you.
-                            </p>
-                          </div>
-
-                          <div className="btns-action">
-                            <button id="submit-email" name="submit_email" className="btn btn-normal btn-primary form-success-gone">
-                              <span className="text">Subscribe</span>
-                              <span className="icon">
-                                <i className="ion ion-checkmark"></i>
-                              </span>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
+                    <iframe id="contactform" title="creartem contact form" src="https://form.jotform.co/83117404869866" style={{width: 100+"%"}} height="550" allowfullscreen></iframe>
                   </div>
                 </div>
               </div>

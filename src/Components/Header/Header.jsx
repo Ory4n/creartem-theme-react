@@ -58,7 +58,7 @@ const Header = () => {
         <div className="navbar-footer">
         <div className="row">
           <div className="col-12 d-flex align-items-end text-center">
-          <p className="note display-small">&copy; 2018 Creartem. <a href="https://www.codedesigns.nz"><span className="menu-social text-primary">Designed by CodeDesigns</span></a>
+          <p className="note display-small">&copy; 2018 Creartem. <a href="http://www.codedesigns.nz"><span className="menu-social text-primary">Designed by CodeDesigns</span></a>
           </p>
         </div>
 </div>

@@ -3,6 +3,7 @@ import WebDesignTitle from '../Sections/WebDesign/Title';
 import WebDesignContent from '../Sections/WebDesign/Content';
 import WebDevTitle from '../Sections/WebDev/Title';
 import WebDevContent from '../Sections/WebDev/Content';
+import { Link } from 'react-router-dom';
 
 class About extends Component {
   constructor(){
@@ -44,12 +45,12 @@ class About extends Component {
                       </div>
 
                       <div className="btns-action sr-up-td3">
-                        <a className="btn btn-normal" href="/faq" alt="creartem agency contact details">
+                        <Link className="btn btn-normal" to="/faq" alt="creartem agency contact details">
                           <span className="text">Contact</span>
                           <span className="icon">
                             <span className="arrow-right"></span>
                           </span>
-                        </a>
+                        </Link>
                       </div>
                     </article>
                   </div>
@@ -85,12 +86,12 @@ class About extends Component {
                             </div>
 
                             <div className="btns-action sr-up-td1">
-                              <a className="btn btn-normal" href="/services">
+                              <Link className="btn btn-normal" to="/services">
                                 <span className="text">Learn more</span>
                                 <span className="icon">
                                   <span className="arrow-right"></span>
                                 </span>
-                              </a>
+                              </Link>
                             </div>
                           </article>
                         </div>
@@ -140,12 +141,12 @@ class About extends Component {
                             </div>
 
                             <div className="btns-action sr-up-td1">
-                              <a className="btn btn-normal" href="/services">
+                              <Link className="btn btn-normal" to="/services">
                                 <span className="text">Learn more</span>
                                 <span className="icon">
                                   <span className="arrow-right"></span>
                                 </span>
-                              </a>
+                              </Link>
                             </div>
                           </article>
                         </div>

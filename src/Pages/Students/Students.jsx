@@ -132,7 +132,7 @@ class Students extends Component {
                         <div className="col-12 col-md-6 col-lg-4 order-lg-2">
                           <div className="item media text-white">
                             <div className="media-img">
-                              <img className="img img-block" src="/theme/img/items/img-sample6.jpg" alt="Creartem Students" />
+                              <img className="img img-block" src="/theme/img/items/img-sample1.jpg" alt="Creartem Students" />
                             </div>
                           </div>
                         </div>
@@ -148,14 +148,12 @@ class Students extends Component {
                               <img className="img img-block" src="/theme/img/items/namita.png" alt="Namita" />
                             </div>
                             <div className="media-body center-vh text-center">
-                              <a href="team.html">
                                 <div className="desc sr-up-td1">
                                   <h3 className="display-6">Namita Garg</h3>
                                   <p>
                                     Web Designer
                                   </p>
                                 </div>
-                              </a>
                             </div>
 
                             <div className="media-footer text-right">
@@ -173,14 +171,12 @@ class Students extends Component {
                               <img className="img img-block" src="/theme/img/items/vanessa.jpg" alt="Vanessa" />
                             </div>
                             <div className="media-body center-vh text-center">
-                              <a href="team.html">
                                 <div className="desc sr-up-td1">
                                   <h3 className="display-6">Vanessa Lemmé</h3>
                                   <p>
                                     Web Designer
                                   </p>
                                 </div>
-                              </a>
                             </div>
                             <div className="media-footer text-right">
                               <a className="btn btn-social" href="https://www.facebook.com/codedesignz">
@@ -202,14 +198,12 @@ class Students extends Component {
                               <img className="img img-block" src="/theme/img/items/estrella.jpg" alt="Zyra" />
                             </div>
                             <div className="media-body center-vh text-center">
-                              <a href="team.html">
                                 <div className="desc sr-up-td1">
                                   <h3 className="display-6">Zyra Gail Estrella</h3>
                                   <p>
                                     Graphic & Web Designer, Animation & 3D Graphic
                                   </p>
                                 </div>
-                              </a>
                             </div>
                             <div className="media-footer text-right">
 
@@ -234,14 +228,12 @@ class Students extends Component {
                               <img className="img img-block" src="/theme/img/items/saloni.jpg" alt="Saloni" />
                             </div>
                             <div className="media-body center-vh text-center">
-                              <a href="team.html">
                                 <div className="desc sr-up-td1">
                                   <h3 className="display-6">Saloni Gupta</h3>
                                   <p>
                                     Web Designer
                                   </p>
                                 </div>
-                              </a>
                             </div>
                             <div className="media-footer text-right">
 
@@ -256,17 +248,15 @@ class Students extends Component {
                           <div className="item media text-white">
                             <div className="media-img">
                               <div className="mask"></div>
-                              <img className="img img-block" src="/theme/img/items/Mon1.jpg" alt="Monpariva" />
+                              <img className="img img-block" src="/theme/img/items/mon1.jpg" alt="Monpariva" />
                             </div>
                             <div className="media-body center-vh text-center">
-                              <a href="team.html">
                                 <div className="desc sr-up-td1">
                                   <h3 className="display-6">Monpariva Mingmongkol</h3>
                                   <p>
                                     Web Designer
                                   </p>
                                 </div>
-                              </a>
                             </div>
                             <div className="media-footer text-right">
 
@@ -283,14 +273,12 @@ class Students extends Component {
                               <img className="img img-block" src="/theme/img/items/Donji.jpg" alt="Donji" />
                             </div>
                             <div className="media-body center-vh text-center">
-                              <a href="team.html">
                                 <div className="desc sr-up-td1">
                                   <h3 className="display-6">Donji Philip Ouano</h3>
                                   <p>
                                    Web Designer & hybrid Mobile Application
                                   </p>
                                 </div>
-                              </a>
                             </div>
                             <div className="media-footer text-right">
 
@@ -325,14 +313,12 @@ class Students extends Component {
                               <img className="img img-block" src="/theme/img/items/oryan.jpg" alt="Oryan Maclean Mclean" />
                             </div>
                             <div className="media-body center-vh text-center">
-                              <a href="team.html">
                                 <div className="desc sr-up-td1">
                                   <h3 className="display-6">Oryan McLean</h3>
                                   <p>
-                                    Full-Stack Developer / Web Consultant / UI-UX Designer
+                                    FullStack Developer, Web Consultant, UI/UX Designer
                                   </p>
                                 </div>
-                              </a>
                             </div>
 
                             <div className="media-footer text-right">
@@ -355,14 +341,12 @@ class Students extends Component {
                               <img className="img img-block" src="/theme/img/items/sergey.png" alt="Sergey" />
                             </div>
                             <div className="media-body center-vh text-center">
-                              <a href="team.html">
                                 <div className="desc sr-up-td1">
                                   <h3 className="display-6">Sergey Lyaskovskiy</h3>
                                   <p>
                                     Web Developer & Designer
                                   </p>
                                 </div>
-                              </a>
                             </div>
 
                             <div className="media-footer text-right">
@@ -402,47 +386,17 @@ class Students extends Component {
                               <img className="img img-block" src="/theme/img/items/doug1.jpg" alt="Doug MacKenzie" />
                             </div>
                             <div className="media-body center-vh text-center">
-                              <a href="team.html">
                                 <div className="desc sr-up-td1">
                                   <h3 className="display-6">Doug MacKenzie</h3>
                                   <p>
                                    Tutor
                                   </p>
                                 </div>
-                              </a>
                             </div>
 
 
                           </div>
                         </div>
-                        {/*<div className="col-12 col-md-6 col-lg-4 order-3 order-lg-3">
-                          <div className="item media text-white">
-                            <div className="item media">
-
-
-                          <img className="img img-block" src="/theme/img/items/globe.png" alt="Doug MacKenzie" />
-                              <div className="media-img">
-                                <div className="mask bg-black"></div>
-                              </div>
-                              <div className="media-body center-vh text-center">
-                                <div className="desc sr-up-td1">
-
-                                  <div className="btns mt-4">
-
-                                  </div>
-                                </div>
-                              </div>
-                              <div className="media-footer text-right">
-                                <a className="btn btn-social" href="/contact">
-                                  <i className="icon fas fa-phone"></i>
-                                </a>
-                                <a className="btn btn-social" href="/">
-                                  <i className="icon fas fa-envelope-open"></i>
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>*/}
                       </div>
                     </div>
 

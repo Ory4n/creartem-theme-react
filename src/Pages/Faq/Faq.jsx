@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactContactForm from 'react-mail-form';
 
 class Faq extends Component {
   constructor(){
